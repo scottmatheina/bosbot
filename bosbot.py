@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
-
+import os
+TOKEN = os.environ["TOKEN"]
 from telegram.ext import Updater
-updater = Updater(token='672249649:AAFVgl1vI5cZ83qp_Zm1gkFmCYAMiKZw7mQ')
+updater = Updater(TOKEN)
 
 import logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
