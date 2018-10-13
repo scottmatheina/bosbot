@@ -12,8 +12,7 @@ Basic Echobot example, repeats messages.
 Press Ctrl-C on the command line or send a signal to the process to stop the
 bot.
 """
-import os
-TOKEN = os.environ["TOKEN"]
+
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import logging
 
@@ -49,7 +48,7 @@ def error(bot, update, error):
 def main():
     """Start the bot."""
     # Create the EventHandler and pass it your bot's token.
-    updater = Updater(TOKEN)
+    updater = Updater("672249649:AAEbolWMT35jPdrdKyJEe6Qxq_44bwiqk8o")
 
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
