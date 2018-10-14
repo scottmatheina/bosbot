@@ -1,7 +1,10 @@
 readme file
 
-Setup SSL Cert
+Setup SSL Cert & nginx
 https://certbot.eff.org/lets-encrypt/ubuntubionic-nginx
+
+start nginx
+$ sudo nginx -t
 
 UFW Firewall
 For security reasons, I also enabled ufw firewall by doing the following:
@@ -21,9 +24,6 @@ OpenSSH (v6)               ALLOW       Anywhere (v6)
 And its done; to start Nginx, all that’s left is to sudo nginx -t
 
 Sending Telegram the SSL Cert
-Telegram will need the other side of the cert. Consulting their documentation, it seems that they need the PEM file. To get that, I had to convert the current CRT file into the PEM format.
+Telegram will need the other side of the cert.
 
-openssl x509 -in /etc/ssl/certs/self-signed.crt -outform pem -out /etc/ssl/certs/bot.pem
-To get the cert to Telegram’s hands, I sent it via their API using this: (Replace bot keys!)
-
-curl -F "url=https://your.domain.or.ip.com" -F "certificate=@/etc/ssl/certs/bot.pem" https://api.telegram.org/bot12345:ABC-DEF1234ghIkl-zyx57W2v1u123ew11/setWebhook
+curl -F "url=https://bosbot.cyiber.com" -F "certificate=@/etc/letsencrypt/live/bosbot.cyiber.com/cert.pem" https://api.telegram.org/bot672249649:AAEbolWMT35jPdrdKyJEe6Qxq_44bwiqk8o/setWebhook
