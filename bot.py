@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import os
+token = os.environ.get("TOKEN")
+
 from telegram.ext import Updater, CommandHandler
 
 
@@ -9,7 +12,7 @@ def hello(bot, update):
         'Hello {}'.format(update.message.from_user.first_name))
 
 
-updater = Updater('672249649:AAEbolWMT35jPdrdKyJEe6Qxq_44bwiqk8o')
+updater = Updater(token)
 
 updater.dispatcher.add_handler(CommandHandler('hello', hello))
 
