@@ -1,4 +1,7 @@
 *Initial Setup*
+Install dependency
+
+$ sudo apt-get install python-requests
 
 Install python-telegram-bot
     https://github.com/python-telegram-bot/python-telegram-bot
@@ -69,4 +72,13 @@ Sending Telegram the SSL Cert
 $ curl -F "url=https://bosbot.cyiber.com" -F \
 "certificate=@/etc/letsencrypt/live/bosbot.cyiber.com/cert.pem" \
 https://api.telegram.org/bot672249649:AAEbolWMT35jPdrdKyJEe6Qxq_44bwiqk8o/setWebhook
+
+
+## features ##
+
+- BOScoin Wallet monitoring, balance, and any changes
+- Monitors sebak code and announces software releases
+- Makes announcements every 12 hours
+- Give 1 BOS to a new user
+- Keep track of a persons positive engagement, and can give BOScoin
 
