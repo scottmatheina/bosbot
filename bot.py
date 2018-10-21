@@ -12,17 +12,27 @@ logging.basicConfig(level=logging.DEBUG,
 
 updater = Updater(token)
 
-def hello(bot, update):
-	update.message.reply_text(
-		'Hello {}'.format(update.message.from_user.first_name))
-hello_handler = CommandHandler('hello', hello)
-updater.dispatcher.add_handler(hello_handler)
-
 def delete(bot, update):
-	update.message.delete()
+	message = update.message.text.lower()
+	ban = ['retard',
+		'retarded',
+		'slut',
+		'dyke',
+		'retards',
+		'nigger',
+		'bitch',
+		'whore',
+		'queer',
+		'fuck',
+		'fag',
+		'cunt',
+		]
+	for i in ban:
+		if i in message:
+			update.message.delete()
+
 delete_handler = MessageHandler(Filters.text, delete)
 updater.dispatcher.add_handler(delete_handler)
-
 
 updater.start_polling()
 updater.idle()
