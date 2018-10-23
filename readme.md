@@ -3,15 +3,23 @@ Install dependency
 
 $ sudo apt-get install python-requests
 
+If you get a SSL_ST_INIT error
+
+    do the following
+        $ apt-get --auto-remove --yes remove python-openssl
+        $ python -m pip install --user --upgrade cryptography
+        $ python -m pip install pyOpenSSL --user
+    this should fix the requests error
+
 Install python-telegram-bot
     https://github.com/python-telegram-bot/python-telegram-bot
 
     The code can be ran from local or remote server, but once you have a working
-    script, you'll want to run it on a server to keep it active all the time. 
-    Doesn't matter where, but I use Ubuntu 18.04 LTS for this project, so probably 
-    want to stick to that, so all the instruction work out for you. 
+    script, you'll want to run it on a server to keep it active all the time.
+    Doesn't matter where, but I use Ubuntu 18.04 LTS for this project, so probably
+    want to stick to that, so all the instruction work out for you.
 
-    
+
 Add systemd service
 
 Create bot.service
@@ -20,16 +28,16 @@ $ cat <<EOT >> /root/systemd/system/bot.service
 [Unit]
 Description=Telegram Bot
 After=multi-user.target
- 
+
 [Service]
 Type=simple
 Environment="TOKEN=<token>"
-ExecStart=/usr/bin/python /root/bosbot/bot.py    
+ExecStart=/usr/bin/python /root/bosbot/bot.py
 Restart=on-abort
- 
+
 [Install]
 WantedBy=multi-user.target
-EOT    
+EOT
 
 $ sudo chmod 644 /etc/systemd/system/bot.service
 $ chmod +x /root/bosbot/bot.py
