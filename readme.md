@@ -89,4 +89,7 @@ https://api.telegram.org/bot672249649:AAEbolWMT35jPdrdKyJEe6Qxq_44bwiqk8o/setWeb
 - Makes announcements every 12 hours
 - Give 1 BOS to a new user
 - Keep track of a persons positive engagement, and can give BOScoin
+- Wallet report - report i generate
+- Welcome message gets deleted after 5 min.
+
 

@@ -23,7 +23,7 @@ def welcome(bot, update):
 		except Exception as e:
 			new_user = new_user_obj['first_name']
 
-		bot.send_message(chat_id=chat_id, text=" %s Welcome to BOScoin! Please read the pinned post. Feel free to ask questions. Thanks." % new_user)
+		bot.send_message(chat_id=chat_id, text=" %s Welcome!" % new_user)
 
 welcome_handler = MessageHandler(Filters.status_update.new_chat_members, welcome)
 updater.dispatcher.add_handler(welcome_handler)
