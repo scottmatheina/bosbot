@@ -66,7 +66,7 @@ def welcome(bot, update):
 			new_user = new_user_obj['first_name']
 
 		message = random.choice(message_list)
-		bot.send_message(chat_id=chat_id, text="{0} Welcome! {1}".format(new_user, message))
+		bot.send_message(chat_id=chat_id, text="{0} Welcome!\n{1}".format(new_user, message))
 
 welcome_handler = MessageHandler(Filters.status_update.new_chat_members, welcome)
 updater.dispatcher.add_handler(welcome_handler)
