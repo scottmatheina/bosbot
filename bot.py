@@ -15,6 +15,8 @@ updater = Updater(token)
 
 def delete_document(bot, update):
 	update.message.delete()
+	chat_id = update.message.chat.id
+	bot.send_message(chat_id=chat_id, text='Deleted, No Documents/Files')
 
 delete_document_handler = MessageHandler(Filters.document | Filters.audio, delete_document)
 updater.dispatcher.add_handler(delete_document_handler)
