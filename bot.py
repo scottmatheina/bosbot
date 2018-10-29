@@ -23,8 +23,8 @@ updater.dispatcher.add_handler(delete_document_handler)
 
 def remove_text_link(bot, update):
 	message = update.message.text.lower()
-	words = ['pump',
-		'join'
+	words = ['join pump group',
+		'best pump group'
 		]
 	for i in words:
 		if i in message:
