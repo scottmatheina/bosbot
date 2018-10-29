@@ -5,24 +5,37 @@ import os
 import random
 import logging
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from telegram import MessageEntity
 from msg_list import message_list
 token = os.environ.get("TOKEN")
-logging.basicConfig(level=logging.DEBUG,
+logging.basicConfig(level=logging.INFO,
 		    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 updater = Updater(token)
 
-#def announcments(bot, job):
-#	chat_id = update.message.chat.id
-#	message_list = random.choice([
-#			'text1',
-#			'text2',
-#			'text3'
-#			])
-#
-#	bot.send_message(chat_id=chat_id, text='textkksks')
+def delete_document(bot, update):
+	update.message.delete()
 
-#updater.job_queue.run_repeating(announcments, interval=5, first=0)
+delete_document_handler = MessageHandler(Filters.document | Filters.audio, delete_document)
+updater.dispatcher.add_handler(delete_document_handler)
+
+def remove_text_link(bot, update):
+	message = update.message.text.lower()
+	words = ['pump',
+		'join'
+		]
+	for i in words:
+		if i in message:
+			update.message.delete()
+			chat_id = update.message.chat.id
+			bot.send_message(chat_id=chat_id, text='Deleted, Suspected Spam')
+
+remove_text_link_handler = MessageHandler(
+	Filters.text & (Filters.entity(MessageEntity.URL) |
+                        Filters.entity(MessageEntity.TEXT_LINK)),
+	remove_text_link)
+
+updater.dispatcher.add_handler(remove_text_link_handler)
 
 def delete_command(bot, update):
 	update.message.delete()
@@ -30,7 +43,7 @@ def delete_command(bot, update):
 delete_command_handler = MessageHandler([Filters.command], delete_command)
 updater.dispatcher.add_handler(delete_command_handler)
 
-def delete_ban(bot, update):
+def delete_bad_language(bot, update):
 	message = update.message.text.lower()
 	ban = ['retard',
 		'retarded',
@@ -47,10 +60,12 @@ def delete_ban(bot, update):
 		]
 	for i in ban:
 		if i in message:
+			chat_id = update.message.chat.id
+			bot.send_message(chat_id=chat_id, text='Deleted, Inappropriate Language')
 			update.message.delete()
 
-delete_ban_handler = MessageHandler(Filters.text, delete_ban)
-updater.dispatcher.add_handler(delete_ban_handler)
+delete_bad_language_handler = MessageHandler(Filters.text, delete_bad_language)
+updater.dispatcher.add_handler(delete_bad_language_handler)
 
 def welcome(bot, update):
 
