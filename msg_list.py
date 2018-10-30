@@ -86,7 +86,7 @@ What is RIPP (Reverse ICO Partner Program)?\
 "Mainnet (Sebak) is on schedule, and we will be releasing information on Open\
  Membership, KYC, and Mainnet launch in the coming weeks. You can receive all\
  the latest updates on our announcements channel.\
- /nhttps://t.me/OfficialBOScoinAnnouncements",
+ \nhttps://t.me/OfficialBOScoinAnnouncements",
  ## 14
  "Our CEO, Yezune Choi, was featured in a cover story 'BOScoin: Reaching the New\
   Heights of a Cryptocurrency Framework'\
