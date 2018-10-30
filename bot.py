@@ -13,13 +13,22 @@ logging.basicConfig(level=logging.INFO,
 
 updater = Updater(token)
 
-def delete_document(bot, update):
+def delete_post(bot, update):
 	update.message.delete()
 	chat_id = update.message.chat.id
-	bot.send_message(chat_id=chat_id, text='Deleted, No Files')
+	bot.send_message(chat_id=chat_id, text='Deleted, allowed document types are\
+	stickers, photos, and gifs')
 
-delete_document_handler = MessageHandler(Filters.document | Filters.audio, delete_document)
-updater.dispatcher.add_handler(delete_document_handler)
+delete_post_handler = MessageHandler((Filters.document |
+					  Filters.audio |
+					  Filters.voice |
+					  Filters.video_note |
+					  Filters.video |
+					  Filters.location |
+					  Filters.contact) & (~ Filters.document.gif),
+					  delete_post)
+
+updater.dispatcher.add_handler(delete_post_handler)
 
 def remove_text_link(bot, update):
 	message = update.message.text.lower()
