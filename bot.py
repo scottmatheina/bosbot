@@ -32,14 +32,15 @@ updater.dispatcher.add_handler(delete_post_handler)
 
 def remove_text_link(bot, update):
 	message = update.message.text.lower()
-	words = ['join pump group',
-		'best pump group'
+	words = ['pump',
+		'signal',
+		'profit'
 		]
 	for i in words:
 		if i in message:
 			update.message.delete()
 			chat_id = update.message.chat.id
-			bot.send_message(chat_id=chat_id, text='Deleted, Suspected Spam')
+			bot.send_message(chat_id=chat_id, text='Deleted, Spam')
 
 remove_text_link_handler = MessageHandler(
 	Filters.text & (Filters.entity(MessageEntity.URL) |
