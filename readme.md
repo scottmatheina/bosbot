@@ -79,7 +79,7 @@ Sending Telegram the SSL Cert
 
 $ curl -F "url=https://bosbot.cyiber.com" -F \
 "certificate=@/etc/letsencrypt/live/bosbot.cyiber.com/cert.pem" \
-https://api.telegram.org/bot672249649:AAEbolWMT35jPdrdKyJEe6Qxq_44bwiqk8o/setWebhook
+https://api.telegram.org/bot<token>/setWebhook
 
 
 ## BOT Current features
