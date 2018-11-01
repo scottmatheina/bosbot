@@ -24,26 +24,26 @@ Add systemd service
 
 Create bot.service
 
-$ cat <<EOT >> /root/systemd/system/bot.service
-[Unit]
-Description=Telegram Bot
-After=multi-user.target
+    $ cat <<EOT >> /root/systemd/system/bot.service
+    [Unit]
+    Description=Telegram Bot
+    After=multi-user.target
 
-[Service]
-Type=simple
-Environment="TOKEN=<token>"
-ExecStart=/usr/bin/python /root/bosbot/bot.py
-Restart=on-abort
+    [Service]
+    Type=simple
+    Environment="TOKEN=<token>"
+    ExecStart=/usr/bin/python /root/bosbot/bot.py
+    Restart=on-abort
 
-[Install]
-WantedBy=multi-user.target
-EOT
+    [Install]
+    WantedBy=multi-user.target
+    EOT
 
-$ sudo chmod 644 /etc/systemd/system/bot.service
-$ chmod +x /root/bosbot/bot.py
-$ sudo systemctl daemon-reload
-$ sudo systemctl enable bot.service
-$ sudo systemctl start bot.service
+    $ sudo chmod 644 /etc/systemd/system/bot.service
+    $ chmod +x /root/bosbot/bot.py
+    $ sudo systemctl daemon-reload
+    $ sudo systemctl enable bot.service
+    $ sudo systemctl start bot.service
 
 *Check the service is running*
     $ service --status-all
@@ -77,9 +77,9 @@ ufw status
 Sending Telegram the SSL Cert
     Telegram will need the other side of the cert.
 
-$ curl -F "url=https://bosbot.cyiber.com" -F \
-"certificate=@/etc/letsencrypt/live/bosbot.cyiber.com/cert.pem" \
-https://api.telegram.org/bot<token>/setWebhook
+    $ curl -F "url=https://bosbot.cyiber.com" -F \
+    "certificate=@/etc/letsencrypt/live/bosbot.cyiber.com/cert.pem" \
+    https://api.telegram.org/bot<token>/setWebhook
 
 
 ## BOT Current features
