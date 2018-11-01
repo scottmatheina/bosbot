@@ -117,5 +117,9 @@ What is RIPP (Reverse ICO Partner Program)?\
 ##
 "[Real-Time Translation: English] ABF Panel Discussion of Yezune Choi, BOScoin CEO\
  / Paul Kim\
-\nhttps://youtu.be/ZZ0EoeKM-h8"
+\nhttps://youtu.be/ZZ0EoeKM-h8",
+##
+"To celebrate Bitcoin’s 10th birthday, BOScoin decided to offer a free pdf download\
+ of “Blockchain Government” written by Myungsan Jun from BOScoin.\
+\nhttps://boscoin.io/blockchain-government-free-download/"
 ]
