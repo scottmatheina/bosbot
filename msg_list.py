@@ -71,7 +71,9 @@ What is RIPP (Reverse ICO Partner Program)?\
 \nhttps://boscoin.io/ask-me-anything-development-october/\
 \nhttps://boscoin.io/ask-me-anything-other-october/\
 \nhttps://boscoin.io/ask-me-anything-partnerships-agreements-and-services-october/\
-\nhttps://boscoin.io/ask-me-anything-schedule-october/",
+\nhttps://boscoin.io/ask-me-anything-schedule-october/\
+\n Submit your own questions today:\
+\nhttps://docs.google.com/forms/d/e/1FAIpQLSdjFPWZPAEPKeuGP7hl7Wp02QgCpZow0bA5b2UZVBlY7-TQKA/viewform",
 ## 11
 "We have several official channels for up to date information on our project. We\
  recommend you use these to stay informed regarding current events in the BOScoin\
