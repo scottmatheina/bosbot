@@ -82,14 +82,12 @@ $ curl -F "url=https://bosbot.cyiber.com" -F \
 https://api.telegram.org/bot672249649:AAEbolWMT35jPdrdKyJEe6Qxq_44bwiqk8o/setWebhook
 
 
-## features ##
+## BOT Current features
 
-- BOScoin Wallet monitoring, balance, and any changes
-- Monitors sebak code and announces software releases
-- Makes announcements every 12 hours
-- Give 1 BOS to a new user
-- Keep track of a persons positive engagement, and can give BOScoin
-- Wallet report - report i generate
-- Welcome message gets deleted after 5 min.
+- Post announcement and welcome when new user joins
+- Delete harsh language focused on attacking others. See bot.py for list.
+- Delete spam post with links, based on keywords.
+- Delete all /commands no used in chat, yet.
+
 
 
