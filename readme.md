@@ -1,7 +1,7 @@
 *Initial Setup*
-Install dependency
 
-$ sudo apt-get install python-requests
+    Install dependency
+    $ sudo apt-get install python-requests
 
 If you get a SSL_ST_INIT error
 
@@ -12,6 +12,7 @@ If you get a SSL_ST_INIT error
     this should fix the requests error
 
 Install python-telegram-bot
+
     https://github.com/python-telegram-bot/python-telegram-bot
 
     The code can be ran from local or remote server, but once you have a working
@@ -22,7 +23,7 @@ Install python-telegram-bot
 
 Add systemd service
 
-Create bot.service
+    Create bot.service
 
     $ cat <<EOT >> /root/systemd/system/bot.service
     [Unit]
