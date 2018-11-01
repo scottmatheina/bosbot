@@ -46,16 +46,20 @@ Create bot.service
     $ sudo systemctl start bot.service
 
 Check the service is running
+
     $ service --status-all
 
 only for webHook  (optional)
-Setup SSL Cert & nginx
+
+    Setup SSL Cert & nginx
     https://certbot.eff.org/lets-encrypt/ubuntubionic-nginx
 
 start nginx
+
     $ sudo nginx -t
 
 UFW Firewall
+
     For security reasons, I also enabled ufw firewall by doing the following:
 
     $ sudo ufw enable
@@ -64,6 +68,7 @@ UFW Firewall
     $ sudo ufw delete allow 'Nginx HTTP'
 
 ufw status
+
     It should look something like this in sudo ufw status
 
     To                         Action      From
@@ -75,6 +80,7 @@ ufw status
     And its done; to start Nginx, all that’s left is to $ sudo nginx -t
 
 Sending Telegram the SSL Cert
+
     Telegram will need the other side of the cert.
 
     $ curl -F "url=https://bosbot.cyiber.com" -F \
