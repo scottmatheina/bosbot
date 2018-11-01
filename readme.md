@@ -45,10 +45,10 @@ Create bot.service
     $ sudo systemctl enable bot.service
     $ sudo systemctl start bot.service
 
-*Check the service is running*
+Check the service is running
     $ service --status-all
 
-*only for webHook  (optional)*
+only for webHook  (optional)
 Setup SSL Cert & nginx
     https://certbot.eff.org/lets-encrypt/ubuntubionic-nginx
 
