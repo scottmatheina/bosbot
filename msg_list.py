@@ -61,7 +61,7 @@ What is RIPP (Reverse ICO Partner Program)?\
  only exchanges trading BOScoin at this time.",
 ## 10
 "Monthly Ask Me Anything with CEO and CTO\
-\nSave your questions and submit them when the question period opens on the 1st.\
+\nQuestion period is open now, and closes on the 10th.\
 \n- Submit questions 1st -10th\
 \n- Team compiles answers 11th - 20th\
 \n- Publishes answers on boscoin.io 21st - 31st\
@@ -109,5 +109,13 @@ What is RIPP (Reverse ICO Partner Program)?\
 "BOScoin has proposed a new solution to solve the high financial commission\
  problem of Project Financing through ‘Public Financing’ and implemented with\
  a program called RIPP (Reverse ICO Partner Program).\
- \nhttps://boscoin.io/pf/"
+\nhttps://boscoin.io/pf/",
+##
+ "[Real-Time Translation: English] 'Play' Instead of Work For Blockchain by Yezune\
+  Choi, BOScoin CEO\
+\nhttps://youtu.be/UBtoOVus2A0",
+##
+"[Real-Time Translation: English] ABF Panel Discussion of Yezune Choi, BOScoin CEO\
+ / Paul Kim\
+\nhttps://youtu.be/ZZ0EoeKM-h8"
 ]
