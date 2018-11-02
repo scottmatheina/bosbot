@@ -16,7 +16,7 @@ message_list = [
 ##
 "You can review the Proposed MainNet Rewards Schedule, this will be voted on by\
  the community. The exact procedure, and more information will be released as we\
- get closer to MainNet Launch, which will be in Nov 2018.\
+ get closer to MainNet Launch, which will be in Nov 15, 2018.\
 \nhttps://medium.com/boscoin/bos-newsletter-august-28th-2018-f3ba33102efe",
 ##
 "Follow the development on github by “watching” the repository\
@@ -45,7 +45,7 @@ What is RIPP (Reverse ICO Partner Program)?\
  'Project Financing (PF)' concept to power better capitalism, solving the high\
  interest rate problem in conventional PF.\
 \n- BOScoin plans to release 'BOSnet', a blockchain based mainnet optimized for\
- PF scheduled for Nov/Dec 2018.\
+ PF scheduled for Nov 15, 2018 launch.\
 \n- BOScoin is running a 'Reverse ICO Partner Program' to discover and foster\
  companies in need of PF through reverse ICOs.",
 ##
@@ -86,7 +86,7 @@ What is RIPP (Reverse ICO Partner Program)?\
 \n\
 \nThe iOS version is scheduled for Q1, 2019.",
 ##
-"Mainnet (Sebak) is on scheduled for Nov 2018, and we will be releasing information on Open\
+"Mainnet (Sebak) is on scheduled for Nov 15, 2018 launch, and we will be releasing information on Open\
  Membership, KYC, and Mainnet launch in the coming weeks. You can receive all\
  the latest updates on our announcements channel.\
 \nhttps://t.me/OfficialBOScoinAnnouncements",
@@ -139,5 +139,7 @@ What is RIPP (Reverse ICO Partner Program)?\
 \nhttps://boscoin.io/blockchain-government-free-download/",
 ##
 "White Paper 2.0 is released\
-\nhttps://boscoin.io/about/#papers"
+\nhttps://boscoin.io/about/#papers",
+##
+"Mainnet launch is Novemeber 15, 2018"
 ]
