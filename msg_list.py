@@ -6,11 +6,6 @@ message_list = [
 "The updated Roadmap is published on the forum at the below link.\
 \nhttps://forum.boscoin.io/t/boscoin-roadmap/2195",
 ##
-"Article, 10 May 2018, Overview of White Paper 2.0 Part 1\
-\nhttps://boscoin.io/article/overview-of-white-paper-2-part1\
-\nIf you have not read this, it is a good overview of the white\
- paper 2.0 in compliance review.",
-##
 "If you are not already subscribed to the Official BOScoin\
  Announcements Telegram now is a great time. Receive all the\
  important announcements in an uncluttered channel.\
@@ -21,7 +16,7 @@ message_list = [
 ##
 "You can review the Proposed MainNet Rewards Schedule, this will be voted on by\
  the community. The exact procedure, and more information will be released as we\
- get closer to MainNet Launch, which will be in Nov/Dec 2018.\
+ get closer to MainNet Launch, which will be in Nov 2018.\
 \nhttps://medium.com/boscoin/bos-newsletter-august-28th-2018-f3ba33102efe",
 ##
 "Follow the development on github by “watching” the repository\
@@ -47,7 +42,7 @@ What is RIPP (Reverse ICO Partner Program)?\
 \n- BOScoin is a finance blockchain project to hack capitalism in the most capitalist way.\
 \n- BOScoin offers three alternatives - credit creation through participation,\
  democratic impact investments and communization of certain assets to form a new\
- 'Project Financing (PF)'' concept to power better capitalism, solving the high\
+ 'Project Financing (PF)' concept to power better capitalism, solving the high\
  interest rate problem in conventional PF.\
 \n- BOScoin plans to release 'BOSnet', a blockchain based mainnet optimized for\
  PF scheduled for Nov/Dec 2018.\
@@ -91,7 +86,7 @@ What is RIPP (Reverse ICO Partner Program)?\
 \n\
 \nThe iOS version is scheduled for Q1, 2019.",
 ##
-"Mainnet (Sebak) is on schedule, and we will be releasing information on Open\
+"Mainnet (Sebak) is on scheduled for Nov 2018, and we will be releasing information on Open\
  Membership, KYC, and Mainnet launch in the coming weeks. You can receive all\
  the latest updates on our announcements channel.\
 \nhttps://t.me/OfficialBOScoinAnnouncements",
@@ -141,5 +136,8 @@ What is RIPP (Reverse ICO Partner Program)?\
 ##
 "To celebrate Bitcoin’s 10th birthday, BOScoin decided to offer a free pdf download\
  of “Blockchain Government” written by Myungsan Jun from BOScoin.\
-\nhttps://boscoin.io/blockchain-government-free-download/"
+\nhttps://boscoin.io/blockchain-government-free-download/",
+##
+"White Paper 2.0 is released\
+\nhttps://boscoin.io/about/#papers"
 ]
