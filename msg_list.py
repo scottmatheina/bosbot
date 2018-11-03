@@ -86,7 +86,7 @@ What is RIPP (Reverse ICO Partner Program)?\
 \n\
 \nThe iOS version is scheduled for Q1, 2019.",
 ##
-"Mainnet (Sebak) is on scheduled for Nov 15, 2018 launch, and we will be releasing information on Open\
+"Mainnet (Sebak) is on schedule for Nov 15, 2018 launch, and we will be releasing information on Open\
  Membership, KYC, and Mainnet launch in the coming weeks. You can receive all\
  the latest updates on our announcements channel.\
 \nhttps://t.me/OfficialBOScoinAnnouncements",
