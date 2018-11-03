@@ -11,9 +11,6 @@ message_list = [
  important announcements in an uncluttered channel.\
 \nhttps://t.me/OfficialBOScoinAnnouncements",
 ##
-"We have published a one page brochure covering basic platform information.\
-\nhttps://boscoin.io/data/brochure.html",
-##
 "You can review the Proposed MainNet Rewards Schedule, this will be voted on by\
  the community. The exact procedure, and more information will be released as we\
  get closer to MainNet Launch, which will be in Nov 15, 2018.\
@@ -67,7 +64,7 @@ What is RIPP (Reverse ICO Partner Program)?\
 \nhttps://boscoin.io/ask-me-anything-other-october/\
 \nhttps://boscoin.io/ask-me-anything-partnerships-agreements-and-services-october/\
 \nhttps://boscoin.io/ask-me-anything-schedule-october/\
-\n Submit your own questions today:\
+\nSubmit your own questions today:\
 \nhttps://docs.google.com/forms/d/e/1FAIpQLSdjFPWZPAEPKeuGP7hl7Wp02QgCpZow0bA5b2UZVBlY7-TQKA/viewform",
 ## 11
 "We have several official channels for up to date information on our project. We\
@@ -95,7 +92,7 @@ What is RIPP (Reverse ICO Partner Program)?\
  Heights of a Cryptocurrency Framework'\
 \nhttps://www.insightssuccess.com/boscoin-reaching-the-new-heights-of-a-cryptocurrency-framework/",
  ##
- "CTO, Minhyo Bae\
+"CTO, Minhyo Bae\
 \nMinhyo has been a software developer for many years. He started with BlockchainOS\
  as a blockchain trust contract developer, but quickly became our lead developer\
  implementing our CEO, Yezune Choi's vision for the BOScoin platform. Minhyo has\
@@ -126,8 +123,8 @@ What is RIPP (Reverse ICO Partner Program)?\
  a program called RIPP (Reverse ICO Partner Program).\
 \nhttps://boscoin.io/pf/",
 ##
- "[Real-Time Translation: English] 'Play' Instead of Work For Blockchain by Yezune\
-  Choi, BOScoin CEO\
+"[Real-Time Translation: English] 'Play' Instead of Work For Blockchain by Yezune\
+ Choi, BOScoin CEO\
 \nhttps://youtu.be/UBtoOVus2A0",
 ##
 "[Real-Time Translation: English] ABF Panel Discussion of Yezune Choi, BOScoin CEO\
@@ -147,7 +144,7 @@ What is RIPP (Reverse ICO Partner Program)?\
  it is recommended you transfer your BOScoin to a wallet - you hold the secret\
  seed. You will be able to access your BOScoins on our wallet.\
 \nhttps://wallet.boscoin.io",
-##
+## Quotes from White Paper 2.0
 "Public Financing creates credit, not through decisions made by a central bank or government,\
  but through the collective consensus of individuals who use and trade real credit.\
  BOScoin has already introduced a governance system called the Congress Network to\
@@ -166,5 +163,85 @@ What is RIPP (Reverse ICO Partner Program)?\
  facto global currency and credit creation system, one that is trusted by the global\
  community to successfully replace the current one.\
 \nhttps://boscoin.io/wp-content/themes/boscoin/src/pdf/BOScoinWhitePaper_2.0_EN.pdf\
- (pg. 5)"
+ (pg. 5)",
+ ##
+"It is necessary not only to utilize the power of capital’s credit generation, but\
+ also to 1) overcome the problems of shareholder capitalism and provide a way for\
+ everyone to participate in the market, 2) enable those who provide credit for the\
+ economy to participate in its financial decisions, and 3) define a production system\
+ as a common resource if the production requires or utilizes consumer activity but\
+ does not benefit them.\
+\nhttps://boscoin.io/wp-content/themes/boscoin/src/pdf/BOScoinWhitePaper_2.0_EN.pdf\
+ (pg. 9)",
+ ##
+"BOScoin introduced the Congress Network to reinforce participants' decision-making power,\
+ but neither BOScoin nor most cryptocurrencies sufficiently satisfied the three conditions\
+ of a 'new economic system'. The sharing of the means of production was often not even\
+ considered. There is a movement, however, that maintains that a system of production\
+ created by the global community is a common resource and must provide access to everyone.\
+ This is called the Commons movement.\
+\nhttps://boscoin.io/wp-content/themes/boscoin/src/pdf/BOScoinWhitePaper_2.0_EN.pdf\
+ (pg. 10)",
+ ##
+"If a community agrees that a particular resource is commons, the wealth produced using the\
+ commons ought to be shared by the community. This is a fundamental and effective alternative\
+ to the vicious cycle of a dying consumer base and dropping labor income.\
+\nhttps://boscoin.io/wp-content/themes/boscoin/src/pdf/BOScoinWhitePaper_2.0_EN.pdf\
+ (pg. 10)",
+ ##
+"Impact investment is a good way for the community to secure the commons, but if driven\
+ by a selected few, it is certainly not the most efficient solution to the problems\
+ of the current economic system. However, it is clear that impact investments can\
+ increase social value.\
+\nhttps://boscoin.io/wp-content/themes/boscoin/src/pdf/BOScoinWhitePaper_2.0_EN.pdf\
+ (pg. 11)",
+ ##
+"We believe that the technical strategy of White Paper 1.0 remains valid, and it\
+ remains in development. Thus, this white paper will examine the strategies and policies\
+ of the current cryptocurrency market from a socioeconomic point of view rather than\
+ the technical and analyze the problems.\
+\nhttps://boscoin.io/wp-content/themes/boscoin/src/pdf/BOScoinWhitePaper_2.0_EN.pdf\
+ (pg. 13)",
+ ##
+"In order to prevent a fragmented monetary space, BOScoin once pushed for Dapp development\
+ through the Commons Budget. After meeting many companies for collaboration, however,\
+ we found that what they wanted was to create credit through an ICO more than to use\
+ BOScoin platform itself.\
+\nIn order to solve the problem of fragmented credit creation systems by the DappICO\
+ strategy, we propose Public Financing (PF).\
+\nhttps://boscoin.io/wp-content/themes/boscoin/src/pdf/BOScoinWhitePaper_2.0_EN.pdf\
+ (pg. 14 & 15)",
+ ##
+"Public Financing is a way for individuals who use and trade real credit to make\
+ collective decisions to create credit. Rather than be dictated by a central bank\
+ or government, the community creates its own credit.\
+\nhttps://boscoin.io/wp-content/themes/boscoin/src/pdf/BOScoinWhitePaper_2.0_EN.pdf\
+ (pg. 15)",
+##
+"Unlike other crypto platforms, BOScoin can offer Public Fianncing because it has\
+ a governance system called the Congress Network.\
+\nhttps://boscoin.io/wp-content/themes/boscoin/src/pdf/BOScoinWhitePaper_2.0_EN.pdf\
+ (pg. 15)",
+ ## Press Releases from PRnewswire.com
+ "Press Release: Nov 2, 2018: Ahead of MainNet Launch on Nov. 15, BOScoin Releases Updated White\
+  Paper 2.0: Focused on Mainnet Operating Principles\
+\nhttps://www.prnewswire.com/news-releases/ahead-of-mainnet-launch-on-nov-15--boscoin-releases-updated-white-paper-2-0-focused-on-mainnet-operating-principles-300743048.html",
+##
+"Press Release: Oct 22, 2018: BOScoin's Partner 'Nature Mobility' launches Zzimcar Direct for small\
+ and midsized rent-a-car companies in Jeju\
+\nhttps://www.prnewswire.com/news-releases/boscoins-partner-nature-mobility-launches-zzimcar-direct-for-small-and-midsized-rent-a-car-companies-in-jeju-300735128.html",
+##
+"Press Release: Oct 16, 2018: BOScoin Launches Industry's First Blockchain Campus Outreach 'CAMBOS'\
+\nhttps://www.prnewswire.com/news-releases/boscoin-launches-industrys-first-blockchain-campus-outreach-cambos-300731743.html",
+##
+"Press Release: Sep 27, 2018: WOTI Governance Enters Agreement for Jejudo Rent-A-Car 'Jjim Car'\
+ Partnership\
+\nhttps://www.prnewswire.com/news-releases/woti-governance-enters-agreement-for-jejudo-rent-a-car-jjim-car-partnership-300720105.html",
+##
+"Press Release: Sep 13, 2018: BOScoin to Run a Rewards Program with KISA to Detect Software Vulnerability\
+\nhttps://www.prnewswire.com/news-releases/boscoin-to-run-a-rewards-program-with-kisa-to-detect-software-vulnerability-300712042.html",
+##
+"Press Release: Sep 04, 2018, BOScoin Successfully Debuts Four Reverse ICO Partners at Recent Community\
+ Meetup\
+\nhttps://www.prnewswire.com/news-releases/boscoin-successfully-debuts-four-reverse-ico-partners-at-recent-community-meetup-300706109.html "
 ]
