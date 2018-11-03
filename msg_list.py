@@ -141,5 +141,10 @@ What is RIPP (Reverse ICO Partner Program)?\
 "White Paper 2.0 is released\
 \nhttps://boscoin.io/about/#papers",
 ##
-"Mainnet launch is Novemeber 15, 2018"
+"Mainnet launch is Novemeber 15, 2018",
+##
+"We are coordinating with exchanges during our migration to Mainnet (Sebak),\
+ it is recommended you transfer your BOScoin to a wallet - you hold the secret\
+ seed. You will be able to access your BOScoins on our wallet.\
+\nhttps://wallet.boscoin.io"
 ]
