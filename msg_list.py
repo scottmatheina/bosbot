@@ -146,5 +146,25 @@ What is RIPP (Reverse ICO Partner Program)?\
 "We are coordinating with exchanges during our migration to Mainnet (Sebak),\
  it is recommended you transfer your BOScoin to a wallet - you hold the secret\
  seed. You will be able to access your BOScoins on our wallet.\
-\nhttps://wallet.boscoin.io"
+\nhttps://wallet.boscoin.io",
+##
+"Public Financing creates credit, not through decisions made by a central bank or government,\
+ but through the collective consensus of individuals who use and trade real credit.\
+ BOScoin has already introduced a governance system called the Congress Network to\
+ give its participants decision-making powers. The BOScoin community can propose,\
+ review, and vote on new token issuance through the Congress Network. The community\
+ as a whole has financial sovereignty, rather than it being given to a concentrated few.\
+ The community members determine the size, volume, and base price of issuance, as\
+ well as the terms of its usage. The community’s decision will be executed by Trust\
+ Contracts in BOScoin. Real economic assets acquired through the issuance of BOScoins\
+ will be used by the community as commons, and thus PF will remain “public”.\
+\nhttps://boscoin.io/wp-content/themes/boscoin/src/pdf/BOScoinWhitePaper_2.0_EN.pdf\
+ (pg. 3)",
+ ##
+"BOS team is not trying to create a token platform that simply uses a blockchain,\
+ nor a pseudo currency for a specific purpose. We want to organize and create a de\
+ facto global currency and credit creation system, one that is trusted by the global\
+ community to successfully replace the current one.\
+\nhttps://boscoin.io/wp-content/themes/boscoin/src/pdf/BOScoinWhitePaper_2.0_EN.pdf\
+ (pg. 5)"
 ]

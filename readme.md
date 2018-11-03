@@ -96,5 +96,9 @@ Sending Telegram the SSL Cert
 - Delete spam post with links, based on keywords.
 - Delete all /commands no used in chat, yet.
 
+## Future Features in Consideration
+- Get BOScoin wallet balance / alart user any changes
+- Use BOScoin blockchain as database for telegram bot
+- Add user engagement statistics / top 10 engagers get BOScoin?
 
 
