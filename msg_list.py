@@ -241,7 +241,10 @@ What is RIPP (Reverse ICO Partner Program)?\
 "Press Release: Sep 13, 2018: BOScoin to Run a Rewards Program with KISA to Detect Software Vulnerability\
 \nhttps://www.prnewswire.com/news-releases/boscoin-to-run-a-rewards-program-with-kisa-to-detect-software-vulnerability-300712042.html",
 ##
-"Press Release: Sep 04, 2018, BOScoin Successfully Debuts Four Reverse ICO Partners at Recent Community\
+"Press Release: Sep 04, 2018: BOScoin Successfully Debuts Four Reverse ICO Partners at Recent Community\
  Meetup\
-\nhttps://www.prnewswire.com/news-releases/boscoin-successfully-debuts-four-reverse-ico-partners-at-recent-community-meetup-300706109.html "
+\nhttps://www.prnewswire.com/news-releases/boscoin-successfully-debuts-four-reverse-ico-partners-at-recent-community-meetup-300706109.html",
+##
+"Article: Nov 5, 2018: Introduction of ISAAC consensus protocol betterments\
+\nhttps://bosnet.github.io/introduction-ISAAC-consensus-Betterment.html"
 ]
