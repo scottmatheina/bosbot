@@ -49,7 +49,7 @@ What is RIPP (Reverse ICO Partner Program)?\
 "Exchanges\
 \n- Hitbtc - Do not buy from this exchange, they are trading an 'IOU' withdrawals\
  and deposits are not allowed.\
-\n- Coinbene.com, Kucoin.com, 2xchange.co.kr, LATOKEN.com and gdac.co.kr are the\
+\n- Coinbene.com, Kucoin.com, 2xchange.co.kr, LATOKEN.com and gdac.com are the\
  only exchanges trading BOScoin at this time.",
 ##
 "Monthly Ask Me Anything with CEO and CTO\
