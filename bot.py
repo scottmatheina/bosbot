@@ -30,11 +30,28 @@ delete_post_handler = MessageHandler((Filters.document |
 
 updater.dispatcher.add_handler(delete_post_handler)
 
+def remove_text(bot, update):
+	message = update.message.text.lower()
+	words = ['bostoken',
+		 'bos token'
+		]
+	for i in words:
+		if i in message:
+			update.message.delete()
+			chat_id = update.message.chat.id
+			bot.send_message(chat_id=chat_id, text='Deleted')
+
+remove_text_handler = MessageHandler(Filters.text, remove_text)
+
+updater.dispatcher.add_handler(remove_text_handler)
+
 def remove_text_link(bot, update):
 	message = update.message.text.lower()
 	words = ['pump',
 		'signal',
 		'profit'
+		'bostoken'
+		'bos token'
 		]
 	for i in words:
 		if i in message:
