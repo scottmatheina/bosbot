@@ -39,7 +39,9 @@ def remove_text(bot, update):
 		if i in message:
 			update.message.delete()
 			chat_id = update.message.chat.id
-			bot.send_message(chat_id=chat_id, text='Deleted')
+			bot.send_message(chat_id=chat_id, text='Deleted, BOSTOKEN\
+ is a completely different project, not associated\
+ with us at all')
 
 remove_text_handler = MessageHandler(Filters.text, remove_text)
 
@@ -50,8 +52,6 @@ def remove_text_link(bot, update):
 	words = ['pump',
 		'signal',
 		'profit'
-		'bostoken'
-		'bos token'
 		]
 	for i in words:
 		if i in message:
