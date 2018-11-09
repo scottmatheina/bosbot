@@ -80,11 +80,10 @@ What is RIPP (Reverse ICO Partner Program)?\
 ##
 "We have released the TokenNet Android Mobile Wallet on the Google Play store.\
 \nhttps://play.google.com/store/apps/details?id=io.boscoin.toknenet.wallet\
-\n\
+\nThere will be a Mainnet Android Mobile Wallet released\
 \nThe iOS version is scheduled for Q1, 2019.",
 ##
-"Mainnet (Sebak) is on schedule for Nov 15, 2018 launch, and we will be releasing information on Open\
- Membership, KYC, and Mainnet launch in the coming weeks. You can receive all\
+"Mainnet (Sebak) is on schedule for Nov 15, 2018 launch. You can receive all\
  the latest updates on our announcements channel.\
 \nhttps://t.me/OfficialBOScoinAnnouncements",
  ##
@@ -245,6 +244,27 @@ What is RIPP (Reverse ICO Partner Program)?\
  Meetup\
 \nhttps://www.prnewswire.com/news-releases/boscoin-successfully-debuts-four-reverse-ico-partners-at-recent-community-meetup-300706109.html",
 ##
+"Press Release: Nov 9, 2018: BOScoin Announces First Voting Results at BOSCON 2018\
+\nhttps://www.prnewswire.com/news-releases/boscoin-announces-first-voting-results-at-boscon-2018-300747429.html",
+##
 "Article: Nov 5, 2018: Introduction of ISAAC consensus protocol betterments\
-\nhttps://bosnet.github.io/introduction-ISAAC-consensus-Betterment.html"
+\nhttps://bosnet.github.io/introduction-ISAAC-consensus-Betterment.html",
+##
+"Announcement: Participation Appreciation for BOScoin’s First Voting\
+\nBOScoin’s very first voting event for BOScoin members.\
+ \nThe purpose of this voting is to decide whether the Membership Reward proposed by\
+ the BOS team is favourable for its members. As a BOScoin member, you get to vote\
+ 'Agree', 'Disagree', or 'Abstain' to the Membership Reward Proposal. The result\
+ will be announced right after the voting ends on December 6th, 2018. BOScoin would\
+ like to thank you for participating in this voting event; therefore, we prepared\
+ some appreciation for you.\
+\nhttps://boscoin.io/appreciation/",
+##
+"Video: [English Subtitle] BOScoin “Membership Reward PF (Public Financing) by Yezune\
+ Choi\
+\nhttps://youtu.be/VGPt9yJXsfI",
+##
+"Join, Vote, and Receive up to 1,000 #BOScoin! Voting starts Nov 30\
+\nhttps://boscoin.io/appreciation/\
+\nhttps://youtu.be/amQyXwjvC0o"
 ]
