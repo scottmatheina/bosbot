@@ -267,4 +267,10 @@ What is RIPP (Reverse ICO Partner Program)?\
 "Join, Vote, and Receive up to 1,000 #BOScoin! Voting starts Nov 30\
 \nhttps://boscoin.io/appreciation/\
 \nhttps://youtu.be/amQyXwjvC0o",
+##
+"On Mainnet, Launching Nov 15th, you will be able to freeze BOScoin with the\
+ BOScoin Mobile Wallet for Android or the Desktop Wallet, but to vote on proposals,\
+ the Desktop Wallet is the only wallet with the voting protocol.\
+\nhttps://github.com/bosnet/sebak/wiki/SEBAK-Installation-Guide\
+\nhttps://github.com/bosnet/sebak/wiki/SEBAK-Commands#sebak-wallet"
 ]
