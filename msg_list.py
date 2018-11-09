@@ -266,5 +266,5 @@ What is RIPP (Reverse ICO Partner Program)?\
 ##
 "Join, Vote, and Receive up to 1,000 #BOScoin! Voting starts Nov 30\
 \nhttps://boscoin.io/appreciation/\
-\nhttps://youtu.be/amQyXwjvC0o"
+\nhttps://youtu.be/amQyXwjvC0o",
 ]
