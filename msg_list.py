@@ -31,6 +31,10 @@ message_list = [
 \n- Medium Blog - https://medium.com/@boscoin\
 \n- Github repositories - https://github.com/bosnet\
 \n- Official Youtube channel - https://www.youtube.com/channel/UC8jcLGbwx_itHzgFPcTLiBg",
+##
+"Membership Reward calculated every 17,280 blocks (approximately daily) as :\
+\n440,640 BOS X (Number of Frozen BOScoin) ÷ (Number of Frozen BOScoin in BOSNet system)\
+\nRewards are distributed approximately monthly by blockheight",
 
 #################################################
 #						#
