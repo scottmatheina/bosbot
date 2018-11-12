@@ -335,6 +335,12 @@ What is RIPP (Reverse ICO Partner Program)?\
 ##
 "An Exclusive Preview of the New Wallet & Desktop Application (Voting+KYC) Service\
 \n\
-\nhttps://t.co/s6FbdhJ15G"
-
+\nhttps://t.co/s6FbdhJ15G",
+##
+"Our partner Payexpress has published their White Paper v1.0 (Draft)\
+ Payexpress is a business that promotes block-chain based payment,\
+ credit, mileage, and digital asset exchange.\
+\nhttps://www.dropbox.com/s/bupyc8kpgo4448p/payexpress_wp_20181112.pdf?dl=0\
+\nwww.payexpress.io\
+\nhttps://t.me/payexpress_english"
 ]
