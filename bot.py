@@ -51,7 +51,8 @@ def remove_text_link(bot, update):
 	message = update.message.text.lower()
 	words = ['pump',
 		'signal',
-		'profit'
+		'profit',
+		'signals'
 		]
 	for i in words:
 		if i in message:
