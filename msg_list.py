@@ -293,7 +293,7 @@ What is RIPP (Reverse ICO Partner Program)?\
 \nhttps://medium.com/boscoin/bos-newsletter-august-28th-2018-f3ba33102efe",
 ##
 "Monthly Ask Me Anything with CEO and CTO\
-\nQuestion period is open now, and closes on the 10th.\
+\n\
 \n- Submit questions 1st -10th\
 \n- Team compiles answers 11th - 20th\
 \n- Publishes answers on boscoin.io 21st - 31st\
