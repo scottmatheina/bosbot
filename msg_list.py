@@ -326,6 +326,15 @@ What is RIPP (Reverse ICO Partner Program)?\
  will be announced right after the voting ends on December 6th, 2018. BOScoin would\
  like to thank you for participating in this voting event; therefore, we prepared\
  some appreciation for you.\
-\nhttps://boscoin.io/appreciation/"
+\nhttps://boscoin.io/appreciation/",
+##
+"Don’t miss out this chance to win up to $1,500 and a visit to korea!!\
+\n\
+\n2018 BOScoin Global Video Contest\
+\nDetails: https://medium.com/@boscoin/2018-boscoin-global-video-contest-9320543f3ccb",
+##
+"An Exclusive Preview of the New Wallet & Desktop Application (Voting+KYC) Service\
+\n\
+\nhttps://t.co/s6FbdhJ15G"
 
 ]
