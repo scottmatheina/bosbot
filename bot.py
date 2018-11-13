@@ -75,6 +75,7 @@ updater.dispatcher.add_handler(delete_command_handler)
 
 def delete_bad_language(bot, update):
 	message = update.message.text.lower()
+
 	ban = ['retard',
 		'retarded',
 		'slut',

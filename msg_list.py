@@ -77,19 +77,13 @@ message_list = [
  a program called RIPP (Reverse ICO Partner Program).\
 \nhttps://boscoin.io/pf/",
 ##
-"Article and Application, 'Reverse ICO Partner Program'\
-\nhttps://boscoin.io/pf/\
-\n\
-What is RIPP (Reverse ICO Partner Program)?\
-\n- RIPP is financed by BOSNet, the mainnet for public financing based on\
- blockchain.\
-\n- RIPP is targeting reverse-ICO firms that are already operational with their\
- own business models, and looking for additional financing through blockchain\
- based ICOs or Public Financing, not the traditional financial system.\
-\n- Our partners can conduct business quickly, without the need for extensive\
- technological investments into the blockchain. Furthermore, raising post-ICO\
- capital on BOSNet through Public Financing is drastically cheaper than using\
- the traditional financial system with its high fees.",
+"Membership Reward PF:\
+Public Financing is credit creation by our community to accelerate the expansion\
+ of the BOScoin ecosystem. It is additional coin issuance for a specific purpose,\
+ and approved by the Congress Network.\
+\nhttps://boscoin.io/pf/",
+##
+
 
 #################################################
 #						#
@@ -239,6 +233,15 @@ What is RIPP (Reverse ICO Partner Program)?\
 # 						#
 #################################################
 
+"Membership Reward PF\
+\nIf you acquire pre-membership and freeze at least 10,000 BOS, then you will receive\
+ membership rewards.\
+\nVoting Period : Nov 30th, 2018 13:00 ~ Dec 6th, 2018 13:00 (UTC+09:00)\
+\nhttps://boscoin.io/pf/pf_r_00-000-a/",
+##
+"We welcome you to join our discussion board and tell us about your opinion on the\
+ Membership Reward PF.\
+\nEnglish Discussion: https://www.kialo.com/invited?token=005-c427c2fa-7288-47d0-a5fe-3c146a0e1b74",
 ##
 "To celebrate Bitcoin’s 10th birthday, BOScoin decided to offer a free pdf download\
  of “Blockchain Government” written by Myungsan Jun from BOScoin.\
