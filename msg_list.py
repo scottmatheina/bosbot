@@ -226,6 +226,9 @@ Public Financing is credit creation by our community to accelerate the expansion
 "[Real-Time Translation: English] 'Play' Instead of Work For Blockchain by Yezune\
  Choi, BOScoin CEO\
 \nhttps://youtu.be/UBtoOVus2A0",
+##
+"Forbiz Payexpress Partner Boscoin Partner Meetup 20180903\
+\nhttps://youtu.be/eUD2UkO6u1w"
 
 #################################################
 #						#
@@ -253,10 +256,11 @@ Public Financing is credit creation by our community to accelerate the expansion
 \n- Coinbene.com, Kucoin.com, 2xchange.co.kr, LATOKEN.com and gdac.com are the\
  only exchanges trading BOScoin at this time.",
 ##
-"We have released the TokenNet Android Mobile Wallet on the Google Play store.\
-\nhttps://play.google.com/store/apps/details?id=io.boscoin.toknenet.wallet\
-\nThere will be a Mainnet Android Mobile Wallet released\
-\nThe iOS version is scheduled for Q1, 2019.",
+"Over the past few months, BOS developers pushed very hard to build a safe and sound\
+ BOScoin Mainnet Mobile Wallet. Now, the BOScoin Testnet Mobile Wallet is available\
+ for our holders to download(GooglePlay), welcome and try. We want you to explore\
+ and experience the product prior to the transition from Tokennet to Mainnet.\
+\nhttps://medium.com/@boscoin/welcome-wallet-760f737f370",
 ##
 "We are coordinating with exchanges during our migration to Mainnet (Sebak),\
  it is recommended you transfer your BOScoin to a wallet - you hold the secret\
@@ -336,5 +340,13 @@ Public Financing is credit creation by our community to accelerate the expansion
  credit, mileage, and digital asset exchange.\
 \nhttps://www.dropbox.com/s/bupyc8kpgo4448p/payexpress_wp_20181112.pdf?dl=0\
 \nwww.payexpress.io\
-\nhttps://t.me/payexpress_english"
+\nhttps://t.me/payexpress_english",
+##
+"We would like supporters from outside of Korea to send us a 30sec video, we will\
+ then play it during the #BOSCON event, Dec 7. You can submit here:\
+\nhttps://docs.google.com/forms/d/e/1FAIpQLSemDctPFifGYqifAcPMKEawdQhH4RRQwVl-lotOLBYOIghmVg/viewform",
+##
+"Coinbene has a special promotion, use the below referral link to signup for a Coinbene trading account,\
+ and Coinbene will give each user 1 ETH to reduce trading fees, but after one month the promotion expires.\
+\nhttps://www.coinbene.com/inviteShare.html#/inviteShare?id=57992264&inviter=s***@coinbene.com.br"
 ]
