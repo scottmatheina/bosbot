@@ -175,9 +175,6 @@ Public Financing is credit creation by our community to accelerate the expansion
 #						#
 #################################################
 
-"Press Release: Nov 2, 2018: Ahead of MainNet Launch on Nov. 15, BOScoin Releases Updated White\
- Paper 2.0: Focused on Mainnet Operating Principles\
-\nhttps://www.prnewswire.com/news-releases/ahead-of-mainnet-launch-on-nov-15--boscoin-releases-updated-white-paper-2-0-focused-on-mainnet-operating-principles-300743048.html",
 ##
 "Press Release: Oct 22, 2018: BOScoin's Partner 'Nature Mobility' launches Zzimcar Direct for small\
  and midsized rent-a-car companies in Jeju\
@@ -256,23 +253,6 @@ Public Financing is credit creation by our community to accelerate the expansion
 \n- Coinbene.com, Kucoin.com, 2xchange.co.kr, LATOKEN.com and gdac.com are the\
  only exchanges trading BOScoin at this time.",
 ##
-"Over the past few months, BOS developers pushed very hard to build a safe and sound\
- BOScoin Mainnet Mobile Wallet. Now, the BOScoin Testnet Mobile Wallet is available\
- for our holders to download(GooglePlay), welcome and try. We want you to explore\
- and experience the product prior to the transition from Tokennet to Mainnet.\
-\nhttps://medium.com/@boscoin/welcome-wallet-760f737f370",
-##
-"We are coordinating with exchanges during our migration to Mainnet (Sebak),\
- it is recommended you transfer your BOScoin to a wallet - you hold the secret\
- seed. You will be able to access your BOScoins on our wallet.\
-\nhttps://wallet.boscoin.io",
-##
-#"On Mainnet, Launching Nov 15th, you will be able to freeze BOScoin with the\
-# BOScoin Mobile Wallet for Android or the Desktop Wallet, but to vote on proposals,\
-# the Desktop Wallet is the only wallet with the voting protocol.\
-#\nhttps://github.com/bosnet/sebak/wiki/SEBAK-Installation-Guide\
-#\nhttps://github.com/bosnet/sebak/wiki/SEBAK-Commands#sebak-wallet",
-##
 "We have published a one page brochure covering basic platform information.\
 \nhttps://boscoin.io/data/brochure.html\
 \n- BOScoin is a finance blockchain project to hack capitalism in the most capitalist way.\
@@ -330,10 +310,6 @@ Public Financing is credit creation by our community to accelerate the expansion
 \n\
 \n2018 BOScoin Global Video Contest\
 \nDetails: https://medium.com/@boscoin/2018-boscoin-global-video-contest-9320543f3ccb",
-##
-"An Exclusive Preview of the New Wallet & Desktop Application (Voting+KYC) Service\
-\n\
-\nhttps://t.co/s6FbdhJ15G",
 ##
 "Our partner Payexpress has published their White Paper v1.0 (Draft)\
  Payexpress is a business that promotes block-chain based payment,\
