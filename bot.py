@@ -8,7 +8,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from telegram import MessageEntity
 from msg_list import message_list
 token = os.environ.get("TOKEN")
-logging.basicConfig(level=logging.INFO,
+logging.basicConfig(level=logging.DEBUG,
 		    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 updater = Updater(token)
@@ -17,7 +17,7 @@ def delete_post(bot, update):
 	update.message.delete()
 	chat_id = update.message.chat.id
 	bot.send_message(chat_id=chat_id, text='Deleted, allowed document types are\
-	stickers, photos, and gifs')
+	stickers, photos, and gifs, please post using the Photo icon not the File icon.')
 
 delete_post_handler = MessageHandler((Filters.document |
 					  Filters.audio |
@@ -27,76 +27,50 @@ delete_post_handler = MessageHandler((Filters.document |
 					  Filters.location |
 					  Filters.contact) & (~ Filters.document.gif),
 					  delete_post)
-
 updater.dispatcher.add_handler(delete_post_handler)
 
-def remove_text(bot, update):
+def delete_post(bot, update):
 	message = update.message.text.lower()
-	words = ['bostoken',
-		 'bos token'
+
+	word1 = ['bostoken',
+		'bos token'
 		]
-	for i in words:
-		if i in message:
+
+	word2 = ['retard',
+	    	'retarded',
+	    	'slut',
+	    	'dyke',
+	    	'retards',
+	    	'nigger',
+	    	'bitch',
+	    	'whore',
+	    	'queer',
+	    	'fuck',
+	    	'fag',
+	    	'cunt'
+	    	]
+	for a in word1:
+		if a in message:
 			update.message.delete()
 			chat_id = update.message.chat.id
 			bot.send_message(chat_id=chat_id, text='Deleted, BOSTOKEN\
  is a completely different project, not associated\
  with us at all')
 
-remove_text_handler = MessageHandler(Filters.text, remove_text)
-
-updater.dispatcher.add_handler(remove_text_handler)
-
-def remove_text_link(bot, update):
-	message = update.message.text.lower()
-	words = ['pump',
-		'signal',
-		'profit',
-		'signals'
-		]
-	for i in words:
-		if i in message:
-			update.message.delete()
+	for b in word2:
+		if b in message:
 			chat_id = update.message.chat.id
-			bot.send_message(chat_id=chat_id, text='Deleted, Spam')
+			bot.send_message(chat_id=chat_id, text='Deleted, Inappropriate Language')
+			update.message.delete()
 
-remove_text_link_handler = MessageHandler(
-	Filters.text & (Filters.entity(MessageEntity.URL) |
-                        Filters.entity(MessageEntity.TEXT_LINK)),
-	remove_text_link)
-
-updater.dispatcher.add_handler(remove_text_link_handler)
+delete_post_handler = MessageHandler(Filters.text, delete_post)
+updater.dispatcher.add_handler(delete_post_handler)
 
 def delete_command(bot, update):
 	update.message.delete()
 
 delete_command_handler = MessageHandler([Filters.command], delete_command)
 updater.dispatcher.add_handler(delete_command_handler)
-
-def delete_bad_language(bot, update):
-	message = update.message.text.lower()
-
-	ban = ['retard',
-		'retarded',
-		'slut',
-		'dyke',
-		'retards',
-		'nigger',
-		'bitch',
-		'whore',
-		'queer',
-		'fuck',
-		'fag',
-		'cunt',
-		]
-	for i in ban:
-		if i in message:
-			chat_id = update.message.chat.id
-			bot.send_message(chat_id=chat_id, text='Deleted, Inappropriate Language')
-			update.message.delete()
-
-delete_bad_language_handler = MessageHandler(Filters.text, delete_bad_language)
-updater.dispatcher.add_handler(delete_bad_language_handler)
 
 def welcome(bot, update):
 
