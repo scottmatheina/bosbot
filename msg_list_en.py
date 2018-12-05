@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #hello
-message_list = [
+message_list_en = [
 
 #################################################
 #						#

@@ -6,7 +6,8 @@ import random
 import logging
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from telegram import MessageEntity
-from msg_list import message_list
+from msg_list_en import message_list_en
+from msg_list_ru import message_list_ru
 token = os.environ.get("TOKEN")
 logging.basicConfig(level=logging.DEBUG,
 		    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -85,8 +86,14 @@ def welcome(bot, update):
 		except Exception as e:
 			new_user = new_user_obj['first_name']
 
-		message = random.choice(message_list)
-		bot.send_message(chat_id=chat_id, text="{0} Welcome!\n{1}".format(new_user, message))
+		message_en = random.choice(message_list_en)
+		message_ru = random.choice(message_list_ru)
+		## BOSmodDev ru testing
+		ru_chat = -1001341820902
+		if chat_id == ru_chat:
+			bot.send_message(chat_id=ru_chat, text="{0} Welcome!\n{1}".format(new_user, message_ru))
+		else:
+			bot.send_message(chat_id=chat_id, text="{0} Welcome!\n{1}".format(new_user, message_en))
 
 welcome_handler = MessageHandler(Filters.status_update.new_chat_members, welcome)
 updater.dispatcher.add_handler(welcome_handler)
