@@ -91,7 +91,7 @@ def welcome(bot, update):
 		## BOSmodDev ru testing
 		ru_chat = -1001341820902
 		if chat_id == ru_chat:
-			bot.send_message(chat_id=ru_chat, text="{0} Welcome!\n{1}".format(new_user, message_ru))
+			bot.send_message(chat_id=ru_chat, text="{0} Приветствуем!\n{1}".format(new_user, message_ru))
 		else:
 			bot.send_message(chat_id=chat_id, text="{0} Welcome!\n{1}".format(new_user, message_en))
 
