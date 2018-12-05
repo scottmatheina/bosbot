@@ -13,12 +13,16 @@ logging.basicConfig(level=logging.DEBUG,
 		    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 updater = Updater(token)
+ru_chat = -1001341820902
+#test account
+#ru_chat = -1001434122024
 
 def delete_post(bot, update):
-	update.message.delete()
 	chat_id = update.message.chat.id
-	bot.send_message(chat_id=chat_id, text='Deleted, allowed document types are\
-	stickers, photos, and gifs, please post using the Photo icon not the File icon.')
+	if chat_id != ru_chat:
+		update.message.delete()
+		bot.send_message(chat_id=chat_id, text='Deleted, allowed document types are\
+		stickers, photos, and gifs, please post using the Photo icon not the File icon.')
 
 delete_post_handler = MessageHandler((Filters.document |
 					  Filters.audio |
@@ -31,6 +35,7 @@ delete_post_handler = MessageHandler((Filters.document |
 updater.dispatcher.add_handler(delete_post_handler)
 
 def delete_post(bot, update):
+	chat_id = update.message.chat.id
 	message = update.message.text.lower()
 
 	word1 = ['bostoken',
@@ -52,23 +57,25 @@ def delete_post(bot, update):
 	    	]
 	for a in word1:
 		if a in message:
-			update.message.delete()
-			chat_id = update.message.chat.id
-			bot.send_message(chat_id=chat_id, text='Deleted, BOSTOKEN\
+			if chat_id != ru_chat:
+				update.message.delete()
+				bot.send_message(chat_id=chat_id, text='Deleted, BOSTOKEN\
  is a completely different project, not associated\
  with us at all')
 
 	for b in word2:
 		if b in message:
-			chat_id = update.message.chat.id
-			bot.send_message(chat_id=chat_id, text='Deleted, Inappropriate Language')
-			update.message.delete()
+			if chat_id != ru_chat:
+				bot.send_message(chat_id=chat_id, text='Deleted, Inappropriate Language')
+				update.message.delete()
 
 delete_post_handler = MessageHandler(Filters.text, delete_post)
 updater.dispatcher.add_handler(delete_post_handler)
 
 def delete_command(bot, update):
-	update.message.delete()
+	chat_id = update.message.chat.id
+	if chat_id != ru_chat:
+		update.message.delete()
 
 delete_command_handler = MessageHandler([Filters.command], delete_command)
 updater.dispatcher.add_handler(delete_command_handler)
@@ -89,7 +96,6 @@ def welcome(bot, update):
 		message_en = random.choice(message_list_en)
 		message_ru = random.choice(message_list_ru)
 		## BOSmodDev ru testing
-		ru_chat = -1001341820902
 		if chat_id == ru_chat:
 			bot.send_message(chat_id=ru_chat, text="{0} Приветствуем!\n{1}".format(new_user, message_ru))
 		else:
