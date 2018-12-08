@@ -44,7 +44,10 @@ message_list_ru = [
 \nhttps://www.insightssuccess.com/boscoin-reaching-the-new-heights-of-a-cryptocurrency-framework/",
  ##
 "Технический директор, Минхе Бэ\
-\nМинхе был разработчиком на протяжении многих лет. Он начал работать в BlockchainOS как разработчик Траст контрактов, но быстро стал ведущим разработчиком, реализуя видение нашего генерального директора Чхве Еджунa. За спиной у Минхе огромный опыт создания и управления крупными распределенными сетями, как AWS, Azure and GCP.\
+\nМинхе был разработчиком на протяжении многих лет. Он начал работать в BlockchainOS как разработчик\
+ Траст контрактов, но быстро стал ведущим разработчиком, реализуя видение нашего генерального директора\
+ Чхве Еджунa. За спиной у Минхе огромный опыт создания и управления крупными распределенными сетями, как\
+ AWS, Azure and GCP.\
 \nhttps://boscoin.io/boscoin/",
 ##
 "Познакомьтесь с нашим генеральным директором, Чхве Еджун\
@@ -103,7 +106,7 @@ message_list_ru = [
 \nhttps://youtu.be/ZZ0EoeKM-h8",
 ##
 "Встреча БОСкоин и партнеров Forbiz Payexpress 20180903\
-\nhttps://youtu.be/eUD2UkO6u1w"
+\nhttps://youtu.be/eUD2UkO6u1w",
 ##
 "Видео: [Инструкция] Регистрация в конгресс, кошелек, и заморозка токенов.\
 \nhttps://www.youtube.com/watch?v=vz_4kd-_-mg&list=PLauV0uhP9FHrJH25zfb4ZD3QKvzOVJCMs&index=2",
@@ -194,5 +197,5 @@ message_list_ru = [
 \nhttps://t.me/payexpress_english",
 ##
 "Мы просим поддержки от нашего сообщества! Вы можете отправить нам 30-секундное видео, которое мы воспроизведем во время конференции BOSCON 7 декабря, 2018 года. Заявку можно подать здесь:\
-\nhttps://docs.google.com/forms/d/e/1FAIpQLSemDctPFifGYqifAcPMKEawdQhH4RRQwVl-lotOLBYOIghmVg/viewform",
+\nhttps://docs.google.com/forms/d/e/1FAIpQLSemDctPFifGYqifAcPMKEawdQhH4RRQwVl-lotOLBYOIghmVg/viewform"
 ]

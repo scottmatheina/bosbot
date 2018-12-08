@@ -175,27 +175,6 @@ Public Financing is credit creation by our community to accelerate the expansion
 #						#
 #################################################
 
-##
-"Press Release: Oct 22, 2018: BOScoin's Partner 'Nature Mobility' launches Zzimcar Direct for small\
- and midsized rent-a-car companies in Jeju\
-\nhttps://www.prnewswire.com/news-releases/boscoins-partner-nature-mobility-launches-zzimcar-direct-for-small-and-midsized-rent-a-car-companies-in-jeju-300735128.html",
-##
-"Press Release: Oct 16, 2018: BOScoin Launches Industry's First Blockchain Campus Outreach 'CAMBOS'\
-\nhttps://www.prnewswire.com/news-releases/boscoin-launches-industrys-first-blockchain-campus-outreach-cambos-300731743.html",
-##
-"Press Release: Sep 27, 2018: WOTI Governance Enters Agreement for Jejudo Rent-A-Car 'Jjim Car'\
- Partnership\
-\nhttps://www.prnewswire.com/news-releases/woti-governance-enters-agreement-for-jejudo-rent-a-car-jjim-car-partnership-300720105.html",
-##
-"Press Release: Sep 13, 2018: BOScoin to Run a Rewards Program with KISA to Detect Software Vulnerability\
-\nhttps://www.prnewswire.com/news-releases/boscoin-to-run-a-rewards-program-with-kisa-to-detect-software-vulnerability-300712042.html",
-##
-"Press Release: Sep 04, 2018: BOScoin Successfully Debuts Four Reverse ICO Partners at Recent Community\
- Meetup\
-\nhttps://www.prnewswire.com/news-releases/boscoin-successfully-debuts-four-reverse-ico-partners-at-recent-community-meetup-300706109.html",
-##
-"Press Release: Nov 9, 2018: BOScoin Announces First Voting Results at BOSCON 2018\
-\nhttps://www.prnewswire.com/news-releases/boscoin-announces-first-voting-results-at-boscon-2018-300747429.html",
 
 #################################################
 #						#
@@ -225,7 +204,10 @@ Public Financing is credit creation by our community to accelerate the expansion
 \nhttps://youtu.be/UBtoOVus2A0",
 ##
 "Forbiz Payexpress Partner Boscoin Partner Meetup 20180903\
-\nhttps://youtu.be/eUD2UkO6u1w"
+\nhttps://youtu.be/eUD2UkO6u1w",
+##
+"The Entire BOSCON 2018 Conference is available with English Translation\
+\nhttps://youtu.be/j7yG0t38vLA",
 
 #################################################
 #						#
@@ -233,25 +215,10 @@ Public Financing is credit creation by our community to accelerate the expansion
 # 						#
 #################################################
 
-"Membership Reward PF\
-\nIf you acquire pre-membership and freeze at least 10,000 BOS, then you will receive\
- membership rewards.\
-\nVoting Period : Nov 30th, 2018 13:00 ~ Dec 6th, 2018 13:00 (UTC+09:00)\
-\nhttps://boscoin.io/pf/pf_r_00-000-a/",
-##
-"We welcome you to join our discussion board and tell us about your opinion on the\
- Membership Reward PF.\
-\nEnglish Discussion: https://www.kialo.com/invited?token=005-c427c2fa-7288-47d0-a5fe-3c146a0e1b74",
 ##
 "To celebrate Bitcoin’s 10th birthday, BOScoin decided to offer a free pdf download\
  of “Blockchain Government” written by Myungsan Jun from BOScoin.\
 \nhttps://boscoin.io/blockchain-government-free-download/",
-##
-"Exchanges\
-\n- Hitbtc - Do not buy from this exchange, they are trading an 'IOU' withdrawals\
- and deposits are not allowed.\
-\n- Coinbene.com, Kucoin.com, 2xchange.co.kr, LATOKEN.com and gdac.com are the\
- only exchanges trading BOScoin at this time.",
 ##
 "We have published a one page brochure covering basic platform information.\
 \nhttps://boscoin.io/data/brochure.html\
@@ -283,33 +250,6 @@ Public Financing is credit creation by our community to accelerate the expansion
 #						#
 #################################################
 
-"Join, Vote, and Receive up to 1,000 #BOScoin! Voting starts Nov 30\
-\nhttps://boscoin.io/appreciation/\
-\nhttps://youtu.be/amQyXwjvC0o",
-##
-"Have you heard of BOScoin Voting participation appreciation?\
-\nVote and you could earn up to 1000 BOS?\
-\n\
-\n1000 BOS (between Nov 30th & Dec 2nd)\
-\n500 BOS (between Dec 2nd & Dec 4th)\
-\n250 BOS (between Dec 4th & Dec 6th)\
-\n\
-\nhttps://boscoin.io/appreciation/",
- ##
-"Participation Appreciation for BOScoin’s First Voting\
-\nBOScoin’s very first voting event for BOScoin members.\
- \nThe purpose of this voting is to decide whether the Membership Reward proposed by\
- the BOS team is favourable for its members. As a BOScoin member, you get to vote\
- 'Agree', 'Disagree', or 'Abstain' to the Membership Reward Proposal. The result\
- will be announced right after the voting ends on December 6th, 2018. BOScoin would\
- like to thank you for participating in this voting event; therefore, we prepared\
- some appreciation for you.\
-\nhttps://boscoin.io/appreciation/",
-##
-"Don’t miss out this chance to win up to $1,500 and a visit to korea!!\
-\n\
-\n2018 BOScoin Global Video Contest\
-\nDetails: https://medium.com/@boscoin/2018-boscoin-global-video-contest-9320543f3ccb",
 ##
 "Our partner Payexpress has published their White Paper v1.0 (Draft)\
  Payexpress is a business that promotes block-chain based payment,\
@@ -317,12 +257,4 @@ Public Financing is credit creation by our community to accelerate the expansion
 \nhttps://www.dropbox.com/s/bupyc8kpgo4448p/payexpress_wp_20181112.pdf?dl=0\
 \nwww.payexpress.io\
 \nhttps://t.me/payexpress_english",
-##
-"We would like supporters from outside of Korea to send us a 30sec video, we will\
- then play it during the #BOSCON event, Dec 7. You can submit here:\
-\nhttps://docs.google.com/forms/d/e/1FAIpQLSemDctPFifGYqifAcPMKEawdQhH4RRQwVl-lotOLBYOIghmVg/viewform",
-##
-"Coinbene has a special promotion, use the below referral link to signup for a Coinbene trading account,\
- and Coinbene will give each user 1 ETH to reduce trading fees, but after one month the promotion expires.\
-\nhttps://www.coinbene.com/inviteShare.html#/inviteShare?id=57992264&inviter=s***@coinbene.com.br"
 ]
