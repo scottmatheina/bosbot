@@ -17,6 +17,21 @@ ru_chat = -1001341820902
 #test account
 #ru_chat = -1001434122024
 
+def delete_forwardwithtext(bot, update):
+	message = update.message.text.lower()
+	chat_id = update.message.chat.id
+	word = ['moon',
+		'signal',
+		'pump'
+		]
+	for a in word:
+		if a in message:
+			if chat_id != ru_chat:
+				update.message.delete()
+				bot.send_message(chat_id=chat_id, text='Spam Forward, Deleted')
+delete_forwardwithtext_handler = MessageHandler(Filters.text & Filters.forwarded, delete_forwardwithtext)
+updater.dispatcher.add_handler(delete_forwardwithtext_handler)
+
 def delete_post(bot, update):
 	chat_id = update.message.chat.id
 	if chat_id != ru_chat:
