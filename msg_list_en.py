@@ -256,5 +256,5 @@ Public Financing is credit creation by our community to accelerate the expansion
  credit, mileage, and digital asset exchange.\
 \nhttps://www.dropbox.com/s/bupyc8kpgo4448p/payexpress_wp_20181112.pdf?dl=0\
 \nwww.payexpress.io\
-\nhttps://t.me/payexpress_english",
+\nhttps://t.me/payexpress_english"
 ]
