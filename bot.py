@@ -22,7 +22,8 @@ def delete_forwardwithtext(bot, update):
 	chat_id = update.message.chat.id
 	word = ['moon',
 		'signal',
-		'pump'
+		'pump',
+		'giveaway'
 		]
 	for a in word:
 		if a in message:
