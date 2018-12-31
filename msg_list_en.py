@@ -52,13 +52,13 @@ message_list_en = [
  implementing our CEO, Yezune Choi's vision for the BOScoin platform. Minhyo has\
  extensive experience in building and managing large distributed networks in cloud\
  systems like AWS, Azure and GCP.\
-\nhttps://boscoin.io/about/",
+\nhttps://boscoin.io/boscoin/",
 ##
 "Meet our CEO, Yezune Choi\
 \nYezune is a top expert in blockchain technology. He has over 20 years experience\
  in software engineering, and has been devoted to the development of blockchain\
  technology for the last five years.\
-\nhttps://boscoin.io/about/",
+\nhttps://boscoin.io/boscoin/",
 ##
 "Meet our CSO, Myungsan Jun\
  Myungsan Jun graduated with a bachelor’s degree from the Division of Sociology,\
@@ -69,8 +69,9 @@ message_list_en = [
  and Tourism, Korea. He also writes IT columns for various journals in Korea. In 2017,\
  he published his second book, in Korea in which he investigates the relationship between\
  the government, blockchain and social trust.\
-\nhttps://boscoin.io/blockchain-government-free-download/\
-\nHe now is concentrating on BOScoin to redesign the future with blockchain technology.",
+ He now is concentrating on BOScoin to redesign the future with blockchain technology.\
+\nhttps://boscoin.io/boscoin/\
+\nhttps://boscoin.io/blockchain-government-free-download/",
 ##
 "BOScoin has proposed a new solution to solve the high financial commission\
  problem of Project Financing through ‘Public Financing’ and implemented with\
@@ -78,7 +79,7 @@ message_list_en = [
 \nhttps://boscoin.io/pf/",
 ##
 "Membership Reward PF:\
-Public Financing is credit creation by our community to accelerate the expansion\
+ Public Financing is credit creation by our community to accelerate the expansion\
  of the BOScoin ecosystem. It is additional coin issuance for a specific purpose,\
  and approved by the Congress Network.\
 \nhttps://boscoin.io/pf/",
@@ -229,13 +230,6 @@ Public Financing is credit creation by our community to accelerate the expansion
  interest rate problem in conventional PF.\
 \n- BOScoin is running a 'Reverse ICO Partner Program' to discover and foster\
  companies in need of PF through reverse ICOs.",
- ##
-"White Paper 2.0 is released\
-\nhttps://boscoin.io/about/#papers",
-"You can review the Proposed MainNet Rewards Schedule, this will be voted on by\
- the community.\
-\nVoting starts on Nov 30 - Dec 6\
-\nhttps://medium.com/boscoin/bos-newsletter-august-28th-2018-f3ba33102efe",
 ##
 "Monthly Ask Me Anything with CEO and CTO\
 \n\
