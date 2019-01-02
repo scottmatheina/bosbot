@@ -165,7 +165,7 @@ message_list_en = [
 \nhttps://boscoin.io/wp-content/themes/boscoin/src/pdf/BOScoinWhitePaper_2.0_EN.pdf\
  (pg. 15)",
 ##
-"Unlike other crypto platforms, BOScoin can offer Public Fianncing because it has\
+"Unlike other crypto platforms, BOScoin can offer Public Financing because it has\
  a governance system called the Congress Network.\
 \nhttps://boscoin.io/wp-content/themes/boscoin/src/pdf/BOScoinWhitePaper_2.0_EN.pdf\
  (pg. 15)",
