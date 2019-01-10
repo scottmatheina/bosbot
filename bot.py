@@ -44,8 +44,6 @@ def delete_post(bot, update):
 delete_post_handler = MessageHandler((Filters.document |
 					  Filters.audio |
 					  Filters.voice |
-					  Filters.video_note |
-					  Filters.video |
 					  Filters.location |
 					  Filters.contact) & (~ Filters.document.gif),
 					  delete_post)
