@@ -24,7 +24,9 @@ def delete_forwardwithtext(bot, update):
 		'signal',
 		'pump',
 		'giveaway',
-		'giveaways'
+		'giveaways',
+		'winner',
+		'airdrop'
 		]
 	for a in word:
 		if a in message:
