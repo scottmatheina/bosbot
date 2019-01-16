@@ -8,12 +8,14 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from telegram import MessageEntity
 from msg_list_en import message_list_en
 from msg_list_ru import message_list_ru
+from msg_kr_movenewchat import message_kr_movenewchat
 token = os.environ.get("TOKEN")
 logging.basicConfig(level=logging.DEBUG,
 		    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 updater = Updater(token)
 ru_chat = -1001341820902
+blockchainos_chat = -1001109262259
 #test account
 #ru_chat = -1001434122024
 
@@ -30,7 +32,7 @@ def delete_forwardwithtext(bot, update):
 		]
 	for a in word:
 		if a in message:
-			if chat_id != ru_chat:
+			if chat_id != ru_chat or blockchainos_chat:
 				update.message.delete()
 				bot.send_message(chat_id=chat_id, text='Spam Forward, Deleted')
 delete_forwardwithtext_handler = MessageHandler(Filters.text & Filters.forwarded, delete_forwardwithtext)
@@ -38,7 +40,7 @@ updater.dispatcher.add_handler(delete_forwardwithtext_handler)
 
 def delete_post(bot, update):
 	chat_id = update.message.chat.id
-	if chat_id != ru_chat:
+	if chat_id != ru_chat or blockchainos_chat:
 		update.message.delete()
 		bot.send_message(chat_id=chat_id, text='Deleted, allowed document types are\
 		stickers, photos, and gifs, please post using the Photo icon not the File icon.')
@@ -74,7 +76,7 @@ def delete_post(bot, update):
 	    	]
 	for a in word1:
 		if a in message:
-			if chat_id != ru_chat:
+			if chat_id != ru_chat or blockchainos_chat:
 				update.message.delete()
 				bot.send_message(chat_id=chat_id, text='Deleted, BOSTOKEN\
  is a completely different project, not associated\
@@ -82,7 +84,7 @@ def delete_post(bot, update):
 
 	for b in word2:
 		if b in message:
-			if chat_id != ru_chat:
+			if chat_id != ru_chat or blockchainos_chat:
 				bot.send_message(chat_id=chat_id, text='Deleted, Inappropriate Language')
 				update.message.delete()
 
@@ -91,7 +93,7 @@ updater.dispatcher.add_handler(delete_post_handler)
 
 def delete_command(bot, update):
 	chat_id = update.message.chat.id
-	if chat_id != ru_chat:
+	if chat_id != ru_chat or blockchainos_chat:
 		update.message.delete()
 
 delete_command_handler = MessageHandler([Filters.command], delete_command)
@@ -115,6 +117,8 @@ def welcome(bot, update):
 		## BOSmodDev ru testing
 		if chat_id == ru_chat:
 			bot.send_message(chat_id=ru_chat, text="{0} Приветствуем!\n{1}".format(new_user, message_ru))
+		elif chat_id == blockchainos_chat:
+			 bot.send_message(chat_id=blockchainos_chat, text="{0}\n{1}".format(new_user, message_kr_movenewchat))
 		else:
 			bot.send_message(chat_id=chat_id, text="{0} Welcome!\n{1}".format(new_user, message_en))
 
