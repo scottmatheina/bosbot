@@ -8,7 +8,6 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from telegram import MessageEntity
 from msg_list_en import message_list_en
 from msg_list_ru import message_list_ru
-from msg_kr_movenewchat import message_kr_movenewchat
 token = os.environ.get("TOKEN")
 logging.basicConfig(level=logging.DEBUG,
 		    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -16,8 +15,8 @@ logging.basicConfig(level=logging.DEBUG,
 updater = Updater(token)
 ru_chat = -1001341820902
 blockchainos_chat = -1001109262259
-#test account
-#ru_chat = -1001434122024
+#BOSmod_dev group testing
+#blockchainos_chat = -1001434122024
 
 def delete_forwardwithtext(bot, update):
 	message = update.message.text.lower()
@@ -118,7 +117,9 @@ def welcome(bot, update):
 		if chat_id == ru_chat:
 			bot.send_message(chat_id=ru_chat, text="{0} Приветствуем!\n{1}".format(new_user, message_ru))
 		elif chat_id == blockchainos_chat:
-			 bot.send_message(chat_id=blockchainos_chat, text="{0}\n{1}".format(new_user, message_kr_movenewchat))
+			 bot.send_message(chat_id=blockchainos_chat, text="시간을 두고 이 방을 정리할 예정입니다.\
+\n\n지금 이방에 입장하신 분은 보스 커뮤니티가 운영하고 있는\n보스코인 Korea 공식 커뮤니티(BOScoin Korea official community)\
+\nhttps://t.me/boscoin_korea\n로 이동해주세요.^^ 감사합니다.")
 		else:
 			bot.send_message(chat_id=chat_id, text="{0} Welcome!\n{1}".format(new_user, message_en))
 
