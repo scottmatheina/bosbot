@@ -9,9 +9,6 @@ message_list_en = [
 #						#
 #################################################
 
-"The updated Roadmap is published on the forum at the below link.\
-\nhttps://forum.boscoin.io/t/boscoin-roadmap/2195",
-##
 "If you are not already subscribed to the Official BOScoin\
  Announcements Telegram now is a great time. Receive all the\
  important announcements in an uncluttered channel.\
@@ -72,19 +69,6 @@ message_list_en = [
  He now is concentrating on BOScoin to redesign the future with blockchain technology.\
 \nhttps://boscoin.io/boscoin/\
 \nhttps://boscoin.io/blockchain-government-free-download/",
-##
-"BOScoin has proposed a new solution to solve the high financial commission\
- problem of Project Financing through ‘Public Financing’ and implemented with\
- a program called RIPP (Reverse ICO Partner Program).\
-\nhttps://boscoin.io/pf/",
-##
-"Membership Reward PF:\
- Public Financing is credit creation by our community to accelerate the expansion\
- of the BOScoin ecosystem. It is additional coin issuance for a specific purpose,\
- and approved by the Congress Network.\
-\nhttps://boscoin.io/pf/",
-##
-
 
 #################################################
 #						#
@@ -175,7 +159,17 @@ message_list_en = [
 # Press Releases from PRnewswire 		#
 #						#
 #################################################
-
+"Press Release - Dec 19, 2018\
+\nBOScoin GG56 PayExpress Signed Trilateral MOU, First Step in Introducing Blockchain-based Payment System\
+\nhttps://www.prnewswire.com/news-releases/boscoin-gg56-payexpress-signed-trilateral-mou-first-step-in-introducing-blockchain-based-payment-system-300768625.html",
+##
+"Press Release - Dec 21, 2018\
+\nOScoin Signed MOU with Tri World Holdings\
+\nhttps://www.prnewswire.com/news-releases/boscoin-signed-mou-with-tri-world-holdings-300770120.html",
+##
+"Press Release - Jan 04, 2019\
+\nBOScoin - O2&B - PayExpress Signs Trilateral MOU\
+\nhttps://www.prnewswire.com/news-releases/boscoin---o2b---payexpress-signs-trilateral-mou-300772881.html"
 
 #################################################
 #						#
@@ -183,8 +177,6 @@ message_list_en = [
 #						#
 #################################################
 
-"Article: Nov 5, 2018: Introduction of ISAAC consensus protocol betterments\
-\nhttps://bosnet.github.io/introduction-ISAAC-consensus-Betterment.html",
 
 #################################################
 #						#
@@ -237,6 +229,20 @@ message_list_en = [
 \n- Team compiles answers 11th - 20th\
 \n- Publishes answers on boscoin.io 21st - 31st\
 \nhttps://docs.google.com/forms/d/e/1FAIpQLSdjFPWZPAEPKeuGP7hl7Wp02QgCpZow0bA5b2UZVBlY7-TQKA/viewform",
+##
+"Ask Me Anything - Jan 2019\
+\n\
+PF & Congress Voting\
+\nhttps://boscoin.io/ask-me-anything-pf-congress-voting-january-2019/\
+\n\
+Development\
+\nhttps://boscoin.io/ask-me-anything-development-january-2019/",
+##
+"BOS Platform Foundation.\
+\nBPF Korea, the administrative branch for the Foundation, has created telegram channels\
+ for communication regarding Foundation activities.\
+\nhttps://t.me/bosplatformfoundation\
+\nhttps://t.me/joinchat/HtDCGBAumIx6QO77faBcfw",
 
 #################################################
 #						#
@@ -249,6 +255,11 @@ message_list_en = [
  Payexpress is a business that promotes block-chain based payment,\
  credit, mileage, and digital asset exchange.\
 \nhttps://www.dropbox.com/s/bupyc8kpgo4448p/payexpress_wp_20181112.pdf?dl=0\
+\nwww.payexpress.io\
+\nhttps://t.me/payexpress_english",
+##
+"Payexpress is conducting their Initial Exchange Offering, as our first potential\
+Reverse ICO Partner. Please visit their website and telegram channels for more information.\
 \nwww.payexpress.io\
 \nhttps://t.me/payexpress_english"
 ]
