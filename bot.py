@@ -56,6 +56,24 @@ delete_post_handler = MessageHandler((Filters.document |
 					  delete_post)
 updater.dispatcher.add_handler(delete_post_handler)
 
+boscoinchinesechat = -1001240455701
+
+def chinesepostmessage(bot, update):
+	messageusername = update.message.from_user.username.encode('utf-8')
+	chat_id = update.message.chat.id
+	word = ['的','是','不','了','人','我','在','有','他','这','为','之','大','来','以','个','中','上','们',
+		'到','说','国','和','地','也','子','时','道','出','而','要','于','就','下','得','可','你','年','生',
+		'自','会','那','后','能','对','着','事','其','里','所','去','行','过','家','十','用','发','天','如',
+		'然','作','方','成','者','多','日','都','三','小','军','二','无','同','么','经','法','当','起','与',
+		'好','看','学','进','种','将','还','分','此	','心','前','面','又','定','见','只','主','没','公','从'
+		]
+	for a in word:
+		if a in messageusername:
+			if chat_id != boscoinchinesechat:
+				bot.send_message(chat_id=chat_id, text='好消息：BOScoin有官方中文社區了！马上过去瞧瞧：\nhttps://t.me/OfficialBOScoinCN (BOScoin Chinese Channel)')
+chinesepostmessage_handler = MessageHandler(Filters.text, chinesepostmessage)
+updater.dispatcher.add_handler(chinesepostmessage_handler)
+
 def delete_post(bot, update):
 	chat_id = update.message.chat.id
 	message = update.message.text.lower()
