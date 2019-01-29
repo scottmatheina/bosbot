@@ -236,7 +236,10 @@ PF & Congress Voting\
 \nhttps://boscoin.io/ask-me-anything-pf-congress-voting-january-2019/\
 \n\
 Development\
-\nhttps://boscoin.io/ask-me-anything-development-january-2019/",
+\nhttps://boscoin.io/ask-me-anything-development-january-2019/\
+\n\
+Marketing\
+\nhttps://boscoin.io/ask-me-anything-marketing-january-2019/",
 ##
 "BOS Platform Foundation.\
 \nBPF Korea, the administrative branch for the Foundation, has created telegram channels\
