@@ -139,9 +139,31 @@ def welcome(bot, update):
 		if chat_id == ru_chat:
 			bot.send_message(chat_id=ru_chat, text="{0} Приветствуем!\n{1}".format(new_user, message_ru))
 		elif chat_id == blockchainos_chat:
-			 bot.send_message(chat_id=blockchainos_chat, text="시간을 두고 이 방을 정리할 예정입니다.\
-\n\n지금 이방에 입장하신 분은 보스 커뮤니티가 운영하고 있는\n보스코인 Korea 공식 커뮤니티(BOScoin Korea official community)\
-\nhttps://t.me/boscoin_korea\n로 이동해주세요.^^ 감사합니다.")
+			 bot.send_message(chat_id=blockchainos_chat, text="안녕하세요,\n\
+			 	\n\
+			 	\n시간을 두고 이 방은 정리할 예정입니다.\n\
+			 	\n\
+				\n아래의 공식 텔레그램 채널을 안내해 드립니다.\
+				\n보스코인 Korea(한국) 공식 커뮤니티: https://t.me/boscoin_korea\
+				\n글로벌 보스코인 공식 커뮤니티: https://t.me/OfficialBOScoin\
+				\n중국 커뮤니티: https://t.me/OfficialBOScoinCN\
+				\n러시아 커뮤니티: https://t.me/BOScoinOfficialRU\
+				\n\
+				\n감사합니다.\
+				\n\
+				\n—————\
+				\n\
+				\nHi,\
+				\n\
+				\nThis telegram group will close over time.\
+				\n\
+				\nThe BOScoin’s official telegram group below:\
+				\nBOScoin Korea Official Community: https://t.me/boscoin_korea\
+				\nGlobal BOScoin Official Community: https://t.me/OfficialBOScoin\
+				\nChina BOScoin Official Community: https://t.me/OfficialBOScoinCN\
+				\nRussian BOScoin Official Community: https://t.me/BOScoinOfficialRU\
+				\n\
+				\nThank you.")
 		else:
 			bot.send_message(chat_id=chat_id, text="{0} Welcome!\n{1}".format(new_user, message_en))
 

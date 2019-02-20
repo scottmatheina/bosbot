@@ -159,6 +159,10 @@ message_list_en = [
 # Press Releases from PRnewswire 		#
 #						#
 #################################################
+"Press Release - Feb 19, 2019\
+\nBOScoin, Queenbee, and PayExpress Signs Trilateral MOU\
+\nhttps://www.prnewswire.com/news-releases/boscoin-queenbee-and-payexpress-signs-trilateral-mou-300797788.html",
+##
 "Press Release - Dec 19, 2018\
 \nBOScoin GG56 PayExpress Signed Trilateral MOU, First Step in Introducing Blockchain-based Payment System\
 \nhttps://www.prnewswire.com/news-releases/boscoin-gg56-payexpress-signed-trilateral-mou-first-step-in-introducing-blockchain-based-payment-system-300768625.html",
@@ -230,16 +234,10 @@ message_list_en = [
 \n- Publishes answers on boscoin.io 21st - 31st\
 \nhttps://docs.google.com/forms/d/e/1FAIpQLSdjFPWZPAEPKeuGP7hl7Wp02QgCpZow0bA5b2UZVBlY7-TQKA/viewform",
 ##
-"Ask Me Anything - Jan 2019\
-\n\
-PF & Congress Voting\
-\nhttps://boscoin.io/ask-me-anything-pf-congress-voting-january-2019/\
-\n\
-Development\
-\nhttps://boscoin.io/ask-me-anything-development-january-2019/\
+"Ask Me Anything - Feb 2019\
 \n\
 Marketing\
-\nhttps://boscoin.io/ask-me-anything-marketing-january-2019/",
+\nhttps://boscoin.io/ask-me-anything-marketing-february-2019/",
 ##
 "BOS Platform Foundation.\
 \nBPF Korea, the administrative branch for the Foundation, has created telegram channels\
@@ -253,16 +251,4 @@ Marketing\
 #						#
 #################################################
 
-##
-"Our partner Payexpress has published their White Paper v1.0 (Draft)\
- Payexpress is a business that promotes block-chain based payment,\
- credit, mileage, and digital asset exchange.\
-\nhttps://www.dropbox.com/s/bupyc8kpgo4448p/payexpress_wp_20181112.pdf?dl=0\
-\nwww.payexpress.io\
-\nhttps://t.me/payexpress_english",
-##
-"Payexpress is conducting their Initial Exchange Offering, as our first potential\
-Reverse ICO Partner. Please visit their website and telegram channels for more information.\
-\nwww.payexpress.io\
-\nhttps://t.me/payexpress_english"
 ]
