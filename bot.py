@@ -140,7 +140,6 @@ def welcome(bot, update):
 			bot.send_message(chat_id=ru_chat, text="{0} Приветствуем!\n{1}".format(new_user, message_ru))
 		elif chat_id == blockchainos_chat:
 			 bot.send_message(chat_id=blockchainos_chat, text="안녕하세요,\n\
-			 	\n\
 			 	\n시간을 두고 이 방은 정리할 예정입니다.\n\
 			 	\n\
 				\n아래의 공식 텔레그램 채널을 안내해 드립니다.\
@@ -150,11 +149,8 @@ def welcome(bot, update):
 				\n러시아 커뮤니티: https://t.me/BOScoinOfficialRU\
 				\n\
 				\n감사합니다.\
-				\n\
 				\n—————\
-				\n\
 				\nHi,\
-				\n\
 				\nThis telegram group will close over time.\
 				\n\
 				\nThe BOScoin’s official telegram group below:\
