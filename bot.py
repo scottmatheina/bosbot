@@ -95,6 +95,38 @@ def delete_post(bot, update):
 	    	'fag',
 	    	'cunt'
 	    	]
+	word_ru = ['Блядь',
+		'Ебать',
+		'Пиздец',
+		'Хуй',
+		'Нахуй',
+		'Ебан',
+		'Выебывайся',
+		'Ебало закрой',
+		'Охуел',
+		'Охуеть',
+		'Заебал',
+		'Заебись',
+		'Пиздабол',
+		'Уебище',
+		'Хуево',
+		'Хуйня',
+		'В пизду',
+		'Высший пиздец',
+		'Да ебал я',
+		'Да хуй его',
+		'Все заебало!',
+		'Пиздец на хуй блядь!',
+		'Сволоч',
+		'Скотина',
+		'Сука',
+		'Кабель',
+		'Ублюдок',
+		'Чмо',
+		'Долбаеб',
+		'Шалава',
+		'Шлюха'
+		]
 	for a in word1:
 		if a in message:
 			if chat_id != ru_chat or blockchainos_chat:
@@ -108,6 +140,11 @@ def delete_post(bot, update):
 			if chat_id != ru_chat or blockchainos_chat:
 				bot.send_message(chat_id=chat_id, text='Deleted, Inappropriate Language')
 				update.message.delete()
+	for c in word_ru:
+		if c in message:
+			if chat_id == ru_chat:
+				update.message.delete()
+				bot.send_message(chat_id=chat_id, text='Удалено. Ненормативная лексика.')
 
 delete_post_handler = MessageHandler(Filters.text, delete_post)
 updater.dispatcher.add_handler(delete_post_handler)
