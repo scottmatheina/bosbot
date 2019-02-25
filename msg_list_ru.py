@@ -16,7 +16,7 @@ message_list_ru = [
 \nhttps://t.me/BOScoinNewsRU",
 ##
 "Следуйте за развитием github, наблюдая за репозиторием\
-\nhttps://github.com/bosnet/sebak\.",
+\nhttps://github.com/bosnet/sebak",
 ##
 "Наши официальные каналы, которые позволят вам следить за событиями в нашей экосистеме БОСкоин\
 \n- Twitter - https://twitter.com/BoscoinRu\
