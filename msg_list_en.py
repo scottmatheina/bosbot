@@ -242,8 +242,10 @@ message_list_en = [
 ##
 "Ask Me Anything - Feb 2019\
 \n\
-Marketing\
-\nhttps://boscoin.io/ask-me-anything-marketing-february-2019/",
+\nMarketing\
+\nhttps://boscoin.io/ask-me-anything-marketing-february-2019/\
+\nPF & Congress Voting\
+\nhttps://boscoin.io/ask-me-anything-pf-congress-voting-february-2019/",
 ##
 "BOS Platform Foundation.\
 \nBPF Korea, the administrative branch for the Foundation, has created telegram channels\
