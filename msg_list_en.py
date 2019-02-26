@@ -159,6 +159,10 @@ message_list_en = [
 # Press Releases from PRnewswire 		#
 #						#
 #################################################
+"Press Release - Feb 22, 2019\
+\nBOScoin Holds Community Vote that Aims to Haul Logistics Industry Innovation\
+\nhttps://www.prnewswire.com/news-releases/boscoin-holds-community-vote-that-aims-to-haul-logistics-industry-innovation-300800308.html",
+##
 "Press Release - Feb 19, 2019\
 \nBOScoin, Queenbee, and PayExpress Signs Trilateral MOU\
 \nhttps://www.prnewswire.com/news-releases/boscoin-queenbee-and-payexpress-signs-trilateral-mou-300797788.html",
@@ -168,7 +172,7 @@ message_list_en = [
 \nhttps://www.prnewswire.com/news-releases/boscoin-gg56-payexpress-signed-trilateral-mou-first-step-in-introducing-blockchain-based-payment-system-300768625.html",
 ##
 "Press Release - Dec 21, 2018\
-\nOScoin Signed MOU with Tri World Holdings\
+\nBOScoin Signed MOU with Tri World Holdings\
 \nhttps://www.prnewswire.com/news-releases/boscoin-signed-mou-with-tri-world-holdings-300770120.html",
 ##
 "Press Release - Jan 04, 2019\
@@ -188,6 +192,11 @@ message_list_en = [
 #						#
 #################################################
 
+"[Part 1] BOScoin Meetup 2nd PF Proposal: PayExpress & O2NB [English Captions]\
+\nhttps://youtu.be/C4bpGB-b_Ks\
+\n[Part 2]BOScoin Meetup 2nd PF Proposal: BOS PESS Token Swap [English Captions]\
+\nhttps://youtu.be/k-3IycuVdqU"
+##
 "Video: [English Subtitle] BOScoin “Membership Reward PF (Public Financing) by Yezune\
  Choi\
 \nhttps://youtu.be/VGPt9yJXsfI",
@@ -199,9 +208,6 @@ message_list_en = [
 "[Real-Time Translation: English] 'Play' Instead of Work For Blockchain by Yezune\
  Choi, BOScoin CEO\
 \nhttps://youtu.be/UBtoOVus2A0",
-##
-"Forbiz Payexpress Partner Boscoin Partner Meetup 20180903\
-\nhttps://youtu.be/eUD2UkO6u1w",
 ##
 "The Entire BOSCON 2018 Conference is available with English Translation\
 \nhttps://youtu.be/j7yG0t38vLA",
