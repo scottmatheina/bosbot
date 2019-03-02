@@ -19,6 +19,8 @@ blockchainos_chat = -1001109262259
 #BOSmod_dev group testing
 bosmoddevgroup = -1001434122024
 bosmodgroup = -1001305605364
+boscoinchinesechat = -1001240455701
+
 def delete_forwardwithtext(bot, update):
 	message = update.message.text.lower()
 	chat_id = update.message.chat.id
@@ -45,18 +47,12 @@ def delete_post(bot, update):
 	chat_id = update.message.chat.id
 	if chat_id != ru_chat or blockchainos_chat:
 		update.message.delete()
-		bot.send_message(chat_id=chat_id, text='Deleted, allowed document types are\
-		stickers, photos, and gifs, please post using the Photo icon not the File icon.')
+		bot.send_message(chat_id=chat_id, text='Location, and Contact info is deleted')
 
-delete_post_handler = MessageHandler((Filters.document |
-					  Filters.audio |
-					  Filters.voice |
-					  Filters.location |
-					  Filters.contact) & (~ Filters.document.gif),
+delete_post_handler = MessageHandler((Filters.location |
+					  Filters.contact),
 					  delete_post)
 updater.dispatcher.add_handler(delete_post_handler)
-
-boscoinchinesechat = -1001240455701
 
 def chinesepostmessage(bot, update):
 	messageusername = update.message.from_user.username.encode('utf-8')
