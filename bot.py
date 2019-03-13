@@ -171,7 +171,6 @@ def delete_post(bot, update):
 	for d in word3:
 		if d in message:
 			if chat_id != ru_chat or blockchainos_chat:
-				bot.send_message(chat_id=chat_id, text='Deleted, Do not spread FUD!')
 				update.message.delete()
 
 delete_post_handler = MessageHandler(Filters.text, delete_post)
