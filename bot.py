@@ -89,7 +89,8 @@ def delete_post(bot, update):
 	    	'queer',
 	    	'fuck',
 	    	'fag',
-	    	'cunt'
+	    	'cunt',
+	    	'fucking'
 	    	]
 	word_ru = ['Блядь',
 		'Ебать',
