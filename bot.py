@@ -93,7 +93,10 @@ def delete_post(bot, update):
 	    	'fucking'
 	    	]
 	word3 = ['scam',
-		'scammed'
+		'scammed',
+		'fraud',
+		'cheat',
+		'sham'
 		]
 	word_ru = ['Блядь',
 		'Ебать',
