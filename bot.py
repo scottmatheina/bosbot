@@ -92,6 +92,9 @@ def delete_post(bot, update):
 	    	'cunt',
 	    	'fucking'
 	    	]
+	word3 = ['scam',
+		'scammed'
+		]
 	word_ru = ['Блядь',
 		'Ебать',
 		'Пиздец',
@@ -142,6 +145,11 @@ def delete_post(bot, update):
 			if chat_id == ru_chat:
 				update.message.delete()
 				bot.send_message(chat_id=chat_id, text='Удалено. Ненормативная лексика.')
+	for d in word3:
+		if d in message:
+			if chat_id != ru_chat or blockchainos_chat:
+				bot.send_message(chat_id=chat_id, text='Deleted, Do not spread FUD!')
+				update.message.delete()
 
 delete_post_handler = MessageHandler(Filters.text, delete_post)
 updater.dispatcher.add_handler(delete_post_handler)
