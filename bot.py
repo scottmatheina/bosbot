@@ -193,8 +193,8 @@ def welcome(bot, update):
 				\nRussian BOScoin Official Community: https://t.me/BOScoinOfficialRU\
 				\n\
 				\nThank you.")
-		else:
-			bot.send_message(chat_id=chat_id, text="{0} Welcome!\n{1}".format(new_user, message_en))
+#		else:
+#			bot.send_message(chat_id=chat_id, text="{0} Welcome!\n{1}".format(new_user, message_en))
 
 welcome_handler = MessageHandler(Filters.status_update.new_chat_members, welcome)
 updater.dispatcher.add_handler(welcome_handler)
