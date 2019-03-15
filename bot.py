@@ -192,8 +192,6 @@ def chinesepostmessage(bot, update):
 chinesepostmessage_handler = MessageHandler(Filters.text, chinesepostmessage)
 updater.dispatcher.add_handler(chinesepostmessage_handler)
 
-
-
 def delete_command(bot, update):
 	chat_id = update.message.chat.id
 	if chat_id != ru_chat or blockchainos_chat:
