@@ -4,7 +4,7 @@
 import os
 import random
 import logging
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, RegexHandler
 from telegram import MessageEntity
 from msg_list_en import message_list_en
 from msg_list_ru import message_list_ru
@@ -21,11 +21,11 @@ bosmoddevgroup = -1001434122024
 bosmodgroup = -1001305605364
 boscoinchinesechat = -1001240455701
 
-def delete_forwardwithtext(bot, update):
-	message = update.message.text.lower()
+def delete_post(bot, update):
 	chat_id = update.message.chat.id
-	word = ['moon',
-		'signal',
+	message = update.message.text.lower()
+	message = update.message.text.encode('utf-8')
+	word0 = ['signal',
 		'pump',
 		'giveaway',
 		'giveaways',
@@ -35,59 +35,21 @@ def delete_forwardwithtext(bot, update):
 		'profits',
 		'join'
 		]
-	for a in word:
-		if a in message:
-			if chat_id != ru_chat or blockchainos_chat:
-				update.message.delete()
-				bot.send_message(chat_id=chat_id, text='Spam Forward, Deleted')
-delete_forwardwithtext_handler = MessageHandler(Filters.text & Filters.forwarded, delete_forwardwithtext)
-updater.dispatcher.add_handler(delete_forwardwithtext_handler)
-
-def delete_post(bot, update):
-	chat_id = update.message.chat.id
-	if chat_id != ru_chat or blockchainos_chat:
-		update.message.delete()
-		bot.send_message(chat_id=chat_id, text='Location, and Contact info is deleted')
-
-delete_post_handler = MessageHandler((Filters.location |
-					  Filters.contact),
-					  delete_post)
-updater.dispatcher.add_handler(delete_post_handler)
-
-def chinesepostmessage(bot, update):
-	messageusername = update.message.from_user.username.encode('utf-8')
-	chat_id = update.message.chat.id
-	word = ['的','是','不','了','人','我','在','有','他','这','为','之','大','来','以','个','中','上','们',
-		'到','说','国','和','地','也','子','时','道','出','而','要','于','就','下','得','可','你','年','生',
-		'自','会','那','后','能','对','着','事','其','里','所','去','行','过','家','十','用','发','天','如',
-		'然','作','方','成','者','多','日','都','三','小','军','二','无','同','么','经','法','当','起','与',
-		'好','看','学','进','种','将','还','分','此	','心','前','面','又','定','见','只','主','没','公','从'
-		]
-	for a in word:
-		if a in messageusername:
-			if chat_id != boscoinchinesechat:
-				bot.send_message(chat_id=chat_id, text='好消息：BOScoin有官方中文社區了！马上过去瞧瞧：\nhttps://t.me/OfficialBOScoinCN (BOScoin Chinese Channel)')
-chinesepostmessage_handler = MessageHandler(Filters.text, chinesepostmessage)
-updater.dispatcher.add_handler(chinesepostmessage_handler)
-
-def delete_post(bot, update):
-	chat_id = update.message.chat.id
-	message = update.message.text.lower()
-
 	word1 = ['bostoken',
 		'bos token'
 		]
 
 	word2 = ['retard',
-	    	'retarded',
+#	    	'retarded',
 	    	'slut',
 	    	'dyke',
-	    	'retards',
+#	    	'retards',
 	    	'nigger',
 	    	'bitch',
 	    	'whore',
 	    	'queer',
 	    	'fuck',
+	    	'fucker',
 	    	'fag',
 	    	'cunt',
 	    	'fucking'
@@ -150,31 +112,87 @@ def delete_post(bot, update):
 		'Шалава',
 		'Шлюха'
 		]
-	for a in word1:
+	for a in word0:
 		if a in message:
+			if chat_id != ru_chat or blockchainos_chat:
+				update.message.delete()
+				bot.send_message(chat_id=chat_id, text='Deleted, Possible Spam')
+	for b in word1:
+		if b in message:
 			if chat_id != ru_chat or blockchainos_chat:
 				update.message.delete()
 				bot.send_message(chat_id=chat_id, text='Deleted, BOSTOKEN\
  is a completely different project, not associated\
  with us at all')
 
-	for b in word2:
-		if b in message:
-			if chat_id != ru_chat or blockchainos_chat:
-				bot.send_message(chat_id=chat_id, text='Deleted, Inappropriate Language')
-				update.message.delete()
-	for c in word_ru:
+	for c in word2:
 		if c in message:
+			if chat_id != ru_chat or blockchainos_chat:
+#				bot.send_message(chat_id=chat_id, text='Deleted, Inappropriate Language')
+				update.message.delete()
+	for d in word_ru:
+		if d in message:
 			if chat_id == ru_chat:
 				update.message.delete()
 				bot.send_message(chat_id=chat_id, text='Удалено. Ненормативная лексика.')
-	for d in word3:
-		if d in message:
+	for e in word3:
+		if e in message:
 			if chat_id != ru_chat or blockchainos_chat:
 				update.message.delete()
 
 delete_post_handler = MessageHandler(Filters.text, delete_post)
 updater.dispatcher.add_handler(delete_post_handler)
+
+#def delete_forwardwithtext(bot, update):
+#	message = update.message.text.lower()
+#	chat_id = update.message.chat.id
+#	word = ['moon',
+#		'signal',
+#		'pump',
+#		'giveaway',
+#		'giveaways',
+#		'winner',
+#		'airdrop',
+#		'profit',
+#		'profits',
+#		'join'
+#		]
+#	for a in word:
+#		if a in message:
+#			if chat_id != ru_chat or blockchainos_chat:
+#				update.message.delete()
+#				bot.send_message(chat_id=chat_id, text='Spam Forward, Deleted')
+#delete_forwardwithtext_handler = MessageHandler(Filters.text & Filters.forwarded, delete_forwardwithtext)
+#updater.dispatcher.add_handler(delete_forwardwithtext_handler)
+
+def delete_post(bot, update):
+	chat_id = update.message.chat.id
+	if chat_id != ru_chat or blockchainos_chat:
+		update.message.delete()
+		bot.send_message(chat_id=chat_id, text='Location, and Contact info is deleted')
+
+delete_post_handler = MessageHandler((Filters.location |
+					  Filters.contact),
+					  delete_post)
+updater.dispatcher.add_handler(delete_post_handler)
+
+def chinesepostmessage(bot, update):
+	messageusername = update.message.from_user.username.encode('utf-8')
+	chat_id = update.message.chat.id
+	word = ['的','是','不','了','人','我','在','有','他','这','为','之','大','来','以','个','中','上','们',
+		'到','说','国','和','地','也','子','时','道','出','而','要','于','就','下','得','可','你','年','生',
+		'自','会','那','后','能','对','着','事','其','里','所','去','行','过','家','十','用','发','天','如',
+		'然','作','方','成','者','多','日','都','三','小','军','二','无','同','么','经','法','当','起','与',
+		'好','看','学','进','种','将','还','分','此	','心','前','面','又','定','见','只','主','没','公','从'
+		]
+	for a in word:
+		if a in messageusername:
+			if chat_id != boscoinchinesechat:
+				bot.send_message(chat_id=chat_id, text='好消息：BOScoin有官方中文社區了！马上过去瞧瞧：\nhttps://t.me/OfficialBOScoinCN (BOScoin Chinese Channel)')
+chinesepostmessage_handler = MessageHandler(Filters.text, chinesepostmessage)
+updater.dispatcher.add_handler(chinesepostmessage_handler)
+
+
 
 def delete_command(bot, update):
 	chat_id = update.message.chat.id
