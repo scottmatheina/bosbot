@@ -59,7 +59,7 @@ def delete_post(bot, update):
 		'fraud',
 		'cheat',
 		'sham',
-		'greed',
+#		'greed',
 		'incompetence',
 		'greediness',
 		'hide the truth',
