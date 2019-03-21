@@ -25,16 +25,7 @@ def delete_post(bot, update):
 	chat_id = update.message.chat.id
 	message = update.message.text.lower()
 	message = update.message.text.encode('utf-8')
-	word0 = ['signal',
-		'pump',
-		'giveaway',
-		'giveaways',
-		'winner',
-		'airdrop',
-		'profit',
-		'profits',
-		'join'
-		]
+
 	word1 = ['bostoken',
 		'bos token'
 		]
@@ -54,32 +45,7 @@ def delete_post(bot, update):
 	    	'cunt',
 	    	'fucking'
 	    	]
-	word3 = ['scam',
-		'scammed',
-		'fraud',
-		'cheat',
-		'sham',
-#		'greed',
-		'incompetence',
-		'greediness',
-		'hide the truth',
-		'hiding the truth',
-		'liar',
-		'liars',
-		'lack of honor',
-		'guilty',
-		'evil',
-		'lawsuit',
-		'currupt',
-		'dead',
-		'dying',
-		'stolen',
-		'jails',
-		'jail',
-		'scammers',
-		'obituary',
-		'hell'
-		]
+
 	word_ru = ['Блядь',
 		'Ебать',
 		'Пиздец',
@@ -112,11 +78,7 @@ def delete_post(bot, update):
 		'Шалава',
 		'Шлюха'
 		]
-	for a in word0:
-		if a in message:
-			if chat_id != ru_chat or blockchainos_chat:
-				update.message.delete()
-				bot.send_message(chat_id=chat_id, text='Deleted, Possible Spam')
+
 	for b in word1:
 		if b in message:
 			if chat_id != ru_chat or blockchainos_chat:
@@ -135,10 +97,6 @@ def delete_post(bot, update):
 			if chat_id == ru_chat:
 				update.message.delete()
 				bot.send_message(chat_id=chat_id, text='Удалено. Ненормативная лексика.')
-	for e in word3:
-		if e in message:
-			if chat_id != ru_chat or blockchainos_chat:
-				update.message.delete()
 
 delete_post_handler = MessageHandler(Filters.text, delete_post)
 updater.dispatcher.add_handler(delete_post_handler)
